@@ -1,0 +1,3 @@
+wng_unicode_db RCDATA "C:\\work\\wingstall-mod\\unicode\\wingstall_ucd.deflate.bin"
+setup_icon ICON "C:\\work\\wingstall-mod\\icon\\setup.ico"
+example.package RCDATA "C:\\work\\wingstall-mod\\packages\\example\\deflate\\example.package.bin"

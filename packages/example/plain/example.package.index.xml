@@ -1,0 +1,67 @@
+<packageIndex appName="Example" compression="none" iconFilePath="$TARGET_ROOT_DIR$/bin/example.ico" id="f684650f-451c-4edd-b8e5-3cf2249d2262" includeUninstaller="1" name="example" publisher="Joe Coder" sourceRootDir="C:/work/wingstall-mod/example" targetRootDir="C:/example" version="1.0.0">
+ <component name="binaries">
+  <directory name="bin" time="13341847006">
+   <file hash="" name="example.exe" size="106496" time="13274486864"/>
+   <file hash="" name="example.ico" size="46227" time="13272393916"/>
+   <file hash="" name="exampled.exe" size="177664" time="13274487492"/>
+  </directory>
+ </component>
+ <component name="libraries">
+  <directory name="lib" time="13341847006">
+   <file hash="" name="another.lib" size="1988" time="13274486973"/>
+   <file hash="" name="anotherd.lib" size="3240" time="13274487491"/>
+   <file hash="" name="somelib.lib" size="751380" time="13273680788"/>
+  </directory>
+ </component>
+ <component name="documentation">
+  <directory name="doc" time="13341847006">
+   <directory name="content" time="13341847006">
+    <file hash="" name="file.html" size="250" time="13273872334"/>
+   </directory>
+   <file hash="" name="index.html" size="305" time="13273872264"/>
+  </directory>
+ </component>
+ <component name="sources">
+  <directory name="another" time="13341847005">
+   <file hash="" name="another.cpp" size="171" time="13274486936"/>
+   <file hash="" name="another.vcxproj" size="7415" time="13274487627"/>
+   <file hash="" name="another.vcxproj.filters" size="1105" time="13274486936"/>
+   <file hash="" name="another.vcxproj.user" size="168" time="13274486936"/>
+   <file hash="" name="framework.h" size="214" time="13274486936"/>
+  </directory>
+  <directory name="example" time="13341847006">
+   <file hash="" name="example.cpp" size="5014" time="13274486841"/>
+   <file hash="" name="example.h" size="39" time="13274486842"/>
+   <file hash="" name="example.ico" size="46227" time="13272393916"/>
+   <file hash="" name="example.rc" size="6828" time="13274486842"/>
+   <file hash="" name="example.vcxproj" size="7719" time="13274487627"/>
+   <file hash="" name="example.vcxproj.filters" size="1727" time="13274486842"/>
+   <file hash="" name="example.vcxproj.user" size="168" time="13274486841"/>
+   <file hash="" name="framework.h" size="395" time="13274486841"/>
+   <file hash="" name="Resource.h" size="731" time="13274486842"/>
+   <file hash="" name="small.ico" size="46227" time="13272393916"/>
+   <file hash="" name="targetver.h" size="313" time="13274486842"/>
+  </directory>
+ </component>
+ <component name="uninstall"/>
+ <environment>
+  <variable name="EXAMPLE_ROOT" oldValue="" value="$TARGET_ROOT_DIR$"/>
+  <pathDirectory value="$TARGET_ROOT_DIR$/bin"/>
+ </environment>
+ <links>
+  <linkDirectory path="$START_MENU_PROGRAMS_FOLDER$/Example"/>
+  <link arguments="" description="Hello World Example" iconIndex="0" iconPath="$TARGET_ROOT_DIR$/bin/example.exe" linkFilePath="$START_MENU_PROGRAMS_FOLDER$/Example/Example.lnk" path="$TARGET_ROOT_DIR$/bin/example.exe" workingDirecory="$TARGET_ROOT_DIR$/bin"/>
+  <link arguments="" description="Hello World Example" iconIndex="0" iconPath="$TARGET_ROOT_DIR$/bin/example.exe" linkFilePath="$DESKTOP_FOLDER$/Example.lnk" path="$TARGET_ROOT_DIR$/bin/example.exe" workingDirecory="$TARGET_ROOT_DIR$/bin"/>
+ </links>
+ <variables>
+  <variable name="TARGET_ROOT_DIR" value="C:/example"/>
+  <variable name="PREINSTALL_DIR" value=""/>
+  <variable name="APP_NAME" value="Example"/>
+  <variable name="APP_VERSION" value="1.0.0"/>
+  <variable name="PRODUCT_ID" value="f684650f-451c-4edd-b8e5-3cf2249d2262"/>
+  <variable name="PUBLISHER" value="Joe Coder"/>
+  <variable name="START_MENU_PROGRAMS_FOLDER" value="C:/ProgramData/Microsoft/Windows/Start Menu/Programs"/>
+  <variable name="DESKTOP_FOLDER" value="C:/Users/seppo/OneDrive/Ty&#246;p&#246;yt&#228;"/>
+  <variable name="PROGRAM_FILES_DIR" value="C:/Program Files"/>
+ </variables>
+</packageIndex>

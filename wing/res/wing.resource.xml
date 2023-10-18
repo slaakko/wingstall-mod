@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <resource name="horizontal.splitter.wing.cursor" type="cursor" file="horizontal.splitter.wing.cur"/>
+  <resource name="vertical.splitter.wing.cursor" type="cursor" file="vertical.splitter.wing.cur"/>
+  <resource name="arrow.wing.bitmap" type="bitmap" file="arrow.wing.bmp"/>
+  <resource name="column.size.wing.cursor" type="cursor" file="column.size.wing.cur"/>
+</resources>

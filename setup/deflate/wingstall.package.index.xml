@@ -1,0 +1,1184 @@
+<packageIndex appName="Wingstall" compression="deflate" iconFilePath="$TARGET_ROOT_DIR$/icon/package.ico" id="17e24c2e-5ddf-4b18-b4ee-1d66182ab193" includeUninstaller="1" name="wingstall" publisher="Seppo Laakko" sourceRootDir="C:/work/wingstall-mod" targetRootDir="C:/wingstall" version="3.0.0">
+ <component name="binaries">
+  <directory name="bin" time="13341850612">
+   <file hash="" name="file_compare.exe" size="401408" time="13342114141"/>
+   <file hash="" name="file_compared.exe" size="2700288" time="13342114090"/>
+   <file hash="" name="make_package_id.exe" size="177152" time="13342114140"/>
+   <file hash="" name="make_package_idd.exe" size="2577920" time="13342114090"/>
+   <file hash="" name="make_wingstall_ucd.exe" size="567808" time="13342114148"/>
+   <file hash="" name="make_wingstall_ucdd.exe" size="3975168" time="13342114097"/>
+   <file hash="" name="package_editor.exe" size="10584064" time="13342114174"/>
+   <file hash="" name="package_editord.exe" size="18706432" time="13342114117"/>
+   <file hash="" name="uninstall.exe" size="5324288" time="13342114169"/>
+   <file hash="" name="uninstalld.exe" size="16727552" time="13342114113"/>
+   <file hash="" name="wingstall.exe" size="9972224" time="13342114163"/>
+   <file hash="" name="wingstalld.exe" size="17064960" time="13342114111"/>
+   <file hash="" name="wnginst.exe" size="4790272" time="13342114148"/>
+   <file hash="" name="wnginstd.exe" size="7790592" time="13342114093"/>
+  </directory>
+ </component>
+ <component name="libraries">
+  <directory name="lib" time="13341850616">
+   <file hash="" name="dom.lib" size="3056606" time="13342114147"/>
+   <file hash="" name="domd.lib" size="5582166" time="13342114093"/>
+   <file hash="" name="lexer.lib" size="8610180" time="13342114144"/>
+   <file hash="" name="lexerd.lib" size="9129396" time="13342114090"/>
+   <file hash="" name="parser.lib" size="6910214" time="13342114126"/>
+   <file hash="" name="parserd.lib" size="5862368" time="13342114070"/>
+   <file hash="" name="rex.lib" size="6076684" time="13342114146"/>
+   <file hash="" name="rexd.lib" size="7748710" time="13342114092"/>
+   <file hash="" name="util.lib" size="24558300" time="13342114139"/>
+   <file hash="" name="utild.lib" size="33435094" time="13342114085"/>
+   <file hash="" name="util_inc.lib" size="23425664" time="13342114132"/>
+   <file hash="" name="util_incd.lib" size="21984112" time="13342114077"/>
+   <file hash="" name="wing.lib" size="31980302" time="13342114158"/>
+   <file hash="" name="wingd.lib" size="38376232" time="13342114104"/>
+   <file hash="" name="wingstall_config.lib" size="7885444" time="13342114153"/>
+   <file hash="" name="wingstall_configd.lib" size="7403080" time="13342114099"/>
+   <file hash="" name="wing_gui.lib" size="10223574" time="13342114165"/>
+   <file hash="" name="wing_guid.lib" size="9994068" time="13342114112"/>
+   <file hash="" name="wing_package.lib" size="10396912" time="13342114160"/>
+   <file hash="" name="wing_packaged.lib" size="18107612" time="13342114106"/>
+   <file hash="" name="xml.lib" size="2097790" time="13342114146"/>
+   <file hash="" name="xmld.lib" size="4439256" time="13342114092"/>
+   <file hash="" name="xpath.lib" size="7548928" time="13342114150"/>
+   <file hash="" name="xpathd.lib" size="10461408" time="13342114095"/>
+   <file hash="" name="zlibstat.lib" size="1095132" time="13342114126"/>
+   <file hash="" name="zlibstatd.lib" size="1371920" time="13342114069"/>
+  </directory>
+ </component>
+ <component name="unicode">
+  <directory name="unicode" time="13342113091">
+   <file hash="" name="make_ucd_bin.cpp" size="13576" time="13341847846"/>
+   <file hash="" name="readme.md" size="755" time="13274294933"/>
+   <file hash="" name="ucd.all.flat.xml" size="182226238" time="13200321248"/>
+   <file hash="" name="ucd.all.flat.zip" size="7839841" time="13272392403"/>
+   <file hash="" name="unicode.vcxproj" size="8402" time="13341847894"/>
+   <file hash="" name="unicode.vcxproj.filters" size="220" time="13341847610"/>
+   <file hash="" name="unicode.vcxproj.user" size="168" time="13342113091"/>
+   <file hash="" name="wingstall_ucd.bin" size="53233116" time="13273244932"/>
+   <file hash="" name="wingstall_ucd.deflate.bin" size="1091180" time="13273244933"/>
+  </directory>
+ </component>
+ <component name="configuration">
+  <directory name="config" time="13341851568">
+   <file hash="" name="build.props" size="648" time="13341406279"/>
+   <file hash="" name="configuration.xml" size="221" time="13342114243"/>
+  </directory>
+ </component>
+ <component name="documentation">
+  <directory name="doc" time="13342114901">
+   <directory name="image" time="13342114901">
+    <file hash="" name="abort_continue_dialog.png" size="3877" time="13274096057"/>
+    <file hash="" name="add_directories_and_files.png" size="3766" time="13277402738"/>
+    <file hash="" name="add_new_link_directory.png" size="4006" time="13277404543"/>
+    <file hash="" name="add_remove.png" size="4600" time="13274313813"/>
+    <file hash="" name="add_remove_programs.png" size="130074" time="13274126339"/>
+    <file hash="" name="configuration.png" size="8411" time="13285537255"/>
+    <file hash="" name="content.png" size="19125" time="13277403363"/>
+    <file hash="" name="engine_variables.png" size="11779" time="13277405829"/>
+    <file hash="" name="example_installer.png" size="7035" time="13277407447"/>
+    <file hash="" name="installation_succeeded.png" size="7142" time="13274096615"/>
+    <file hash="" name="installer.png" size="5498" time="13274018251"/>
+    <file hash="" name="new_component.png" size="2187" time="13277402461"/>
+    <file hash="" name="new_package.png" size="4432" time="13277401559"/>
+    <file hash="" name="package_editor.png" size="35389" time="13277316147"/>
+    <file hash="" name="package_properties.png" size="7943" time="13277404422"/>
+    <file hash="" name="shortcut.png" size="10109" time="13277405336"/>
+    <file hash="" name="uninstall.png" size="34313" time="13274126388"/>
+    <file hash="" name="uninstallation_succeeded.png" size="11666" time="13274121909"/>
+    <file hash="" name="uninstaller.png" size="4916" time="13274122104"/>
+    <file hash="" name="uninstaller_abort_continue_dialog.png" size="3917" time="13274122984"/>
+    <file hash="" name="x64nativeToolsProperties.png" size="16130" time="13285537845"/>
+   </directory>
+   <directory name="rel" time="13342114901">
+    <directory name="1.0.0" time="13342114901">
+     <file hash="" name="release.notes.html" size="193" time="13274214807"/>
+    </directory>
+    <directory name="1.1.0" time="13342114901">
+     <file hash="" name="release.notes.html" size="819" time="13274533425"/>
+    </directory>
+    <directory name="2.0.0" time="13342114901">
+     <file hash="" name="release.notes.html" size="374" time="13277469956"/>
+    </directory>
+    <directory name="2.1.0" time="13342114901">
+     <file hash="" name="release.notes.html" size="670" time="13278504847"/>
+    </directory>
+    <directory name="2.2.0" time="13342114901">
+     <file hash="" name="release.notes.html" size="149" time="13301124256"/>
+    </directory>
+    <directory name="3.0.0" time="13342114901">
+     <file hash="" name="release.notes.html" size="147" time="13342114858"/>
+    </directory>
+   </directory>
+   <directory name="style" time="13342114901">
+    <file hash="" name="style.css" size="976" time="13274125568"/>
+   </directory>
+   <file hash="" name="footnotes.html" size="807" time="13274210901"/>
+   <file hash="" name="index.html" size="68651" time="13285537080"/>
+   <file hash="" name="LICENSE.txt" size="1076" time="13342114718"/>
+   <file hash="" name="package_editor.html" size="7323" time="13285537477"/>
+   <file hash="" name="ucd.html" size="803" time="13274294963"/>
+  </directory>
+ </component>
+ <component name="ext">
+  <directory name="ext" time="13341411557">
+   <directory name="zlib-1.2.11" time="13341411553">
+    <directory name="amiga" time="13341411552">
+     <file hash="" name="Makefile.pup" size="2050" time="13272392402"/>
+     <file hash="" name="Makefile.sas" size="1915" time="13272392402"/>
+    </directory>
+    <directory name="contrib" time="13341411552">
+     <directory name="ada" time="13341411552">
+      <file hash="" name="buffer_demo.adb" size="3823" time="13272392402"/>
+      <file hash="" name="mtest.adb" size="4623" time="13272392402"/>
+      <file hash="" name="read.adb" size="4404" time="13272392402"/>
+      <file hash="" name="readme.txt" size="2243" time="13272392402"/>
+      <file hash="" name="test.adb" size="13643" time="13272392402"/>
+      <file hash="" name="zlib-streams.adb" size="6221" time="13272392402"/>
+      <file hash="" name="zlib-streams.ads" size="4443" time="13272392402"/>
+      <file hash="" name="zlib-thin.adb" size="3470" time="13272392402"/>
+      <file hash="" name="zlib-thin.ads" size="16269" time="13272392402"/>
+      <file hash="" name="zlib.adb" size="21101" time="13272392402"/>
+      <file hash="" name="zlib.ads" size="13922" time="13272392402"/>
+      <file hash="" name="zlib.gpr" size="531" time="13272392402"/>
+     </directory>
+     <directory name="amd64" time="13341411552">
+      <file hash="" name="amd64-match.S" size="12870" time="13272392402"/>
+     </directory>
+     <directory name="asm686" time="13341411552">
+      <file hash="" name="match.S" size="10722" time="13272392402"/>
+      <file hash="" name="README.686" size="1673" time="13272392402"/>
+     </directory>
+     <directory name="blast" time="13341411552">
+      <file hash="" name="blast.c" size="18628" time="13272392402"/>
+      <file hash="" name="blast.h" size="3948" time="13272392402"/>
+      <file hash="" name="Makefile" size="135" time="13272392402"/>
+      <file hash="" name="README" size="78" time="13272392402"/>
+      <file hash="" name="test.pk" size="8" time="13272392402"/>
+      <file hash="" name="test.txt" size="13" time="13272392402"/>
+     </directory>
+     <directory name="delphi" time="13341411552">
+      <file hash="" name="readme.txt" size="2576" time="13272392402"/>
+      <file hash="" name="ZLib.pas" size="16970" time="13272392402"/>
+      <file hash="" name="ZLibConst.pas" size="197" time="13272392402"/>
+      <file hash="" name="zlibd32.mak" size="2459" time="13272392402"/>
+     </directory>
+     <directory name="dotzlib" time="13341411552">
+      <directory name="DotZLib" time="13341411552">
+       <file hash="" name="AssemblyInfo.cs" size="2500" time="13272392402"/>
+       <file hash="" name="ChecksumImpl.cs" size="8040" time="13272392402"/>
+       <file hash="" name="CircularBuffer.cs" size="2246" time="13272392402"/>
+       <file hash="" name="CodecBase.cs" size="6335" time="13272392402"/>
+       <file hash="" name="Deflater.cs" size="3992" time="13272392402"/>
+       <file hash="" name="DotZLib.cs" size="9927" time="13272392402"/>
+       <file hash="" name="DotZLib.csproj" size="5396" time="13272392402"/>
+       <file hash="" name="GZipStream.cs" size="11162" time="13272392402"/>
+       <file hash="" name="Inflater.cs" size="3740" time="13272392402"/>
+       <file hash="" name="UnitTests.cs" size="7685" time="13272392402"/>
+      </directory>
+      <file hash="" name="DotZLib.build" size="1175" time="13272392402"/>
+      <file hash="" name="DotZLib.chm" size="72726" time="13272392402"/>
+      <file hash="" name="DotZLib.sln" size="907" time="13272392402"/>
+      <file hash="" name="LICENSE_1_0.txt" size="1359" time="13272392402"/>
+      <file hash="" name="readme.txt" size="2358" time="13272392402"/>
+     </directory>
+     <directory name="gcc_gvmat64" time="13341411552">
+      <file hash="" name="gvmat64.S" size="16413" time="13272392402"/>
+     </directory>
+     <directory name="infback9" time="13341411552">
+      <file hash="" name="infback9.c" size="22244" time="13272392402"/>
+      <file hash="" name="infback9.h" size="1631" time="13272392402"/>
+      <file hash="" name="inffix9.h" size="6706" time="13272392402"/>
+      <file hash="" name="inflate9.h" size="2038" time="13272392402"/>
+      <file hash="" name="inftree9.c" size="13730" time="13272392402"/>
+      <file hash="" name="inftree9.h" size="2962" time="13272392402"/>
+      <file hash="" name="README" size="52" time="13272392402"/>
+     </directory>
+     <directory name="inflate86" time="13341411552">
+      <file hash="" name="inffas86.c" size="41765" time="13272392402"/>
+      <file hash="" name="inffast.S" size="44210" time="13272392402"/>
+     </directory>
+     <directory name="iostream" time="13341411552">
+      <file hash="" name="test.cpp" size="550" time="13272392402"/>
+      <file hash="" name="zfstream.cpp" size="5441" time="13272392402"/>
+      <file hash="" name="zfstream.h" size="2595" time="13272392402"/>
+     </directory>
+     <directory name="iostream2" time="13341411552">
+      <file hash="" name="zstream.h" size="9590" time="13272392402"/>
+      <file hash="" name="zstream_test.cpp" size="736" time="13272392402"/>
+     </directory>
+     <directory name="iostream3" time="13341411552">
+      <file hash="" name="README" size="1525" time="13272392402"/>
+      <file hash="" name="test.cc" size="1540" time="13272392402"/>
+      <file hash="" name="TODO" size="508" time="13272392402"/>
+      <file hash="" name="zfstream.cc" size="13926" time="13272392402"/>
+      <file hash="" name="zfstream.h" size="12706" time="13272392402"/>
+     </directory>
+     <directory name="masmx64" time="13341411552">
+      <file hash="" name="bld_ml64.bat" size="86" time="13272392402"/>
+      <file hash="" name="gvmat64.asm" size="16443" time="13272392402"/>
+      <file hash="" name="gvmat64.lst" size="25632" time="13274010381"/>
+      <file hash="" name="gvmat64.obj" size="4383" time="13274010381"/>
+      <file hash="" name="inffas8664.c" size="7577" time="13272392402"/>
+      <file hash="" name="inffasx64.asm" size="10583" time="13272392402"/>
+      <file hash="" name="inffasx64.lst" size="18670" time="13274010381"/>
+      <file hash="" name="inffasx64.obj" size="6167" time="13274010381"/>
+      <file hash="" name="readme.txt" size="1237" time="13272392402"/>
+     </directory>
+     <directory name="masmx86" time="13341411552">
+      <file hash="" name="bld_ml32.bat" size="92" time="13272392402"/>
+      <file hash="" name="inffas32.asm" size="16392" time="13272392402"/>
+      <file hash="" name="inffas32.lst" size="36550" time="13272392402"/>
+      <file hash="" name="match686.asm" size="15825" time="13272392402"/>
+      <file hash="" name="match686.lst" size="26580" time="13272392402"/>
+      <file hash="" name="readme.txt" size="873" time="13272392402"/>
+     </directory>
+     <directory name="minizip" time="13341411552">
+      <file hash="" name="configure.ac" size="819" time="13272392402"/>
+      <file hash="" name="crypt.h" size="4866" time="13272392402"/>
+      <file hash="" name="ioapi.c" size="8472" time="13272392402"/>
+      <file hash="" name="ioapi.h" size="7259" time="13272392402"/>
+      <file hash="" name="iowin32.c" size="14685" time="13272392402"/>
+      <file hash="" name="iowin32.h" size="879" time="13272392402"/>
+      <file hash="" name="Makefile" size="482" time="13272392402"/>
+      <file hash="" name="Makefile.am" size="863" time="13272392402"/>
+      <file hash="" name="make_vms.com" size="926" time="13272392402"/>
+      <file hash="" name="miniunz.c" size="18423" time="13272392402"/>
+      <file hash="" name="miniunzip.1" size="1924" time="13272392402"/>
+      <file hash="" name="minizip.1" size="1508" time="13272392402"/>
+      <file hash="" name="minizip.c" size="15554" time="13272392402"/>
+      <file hash="" name="minizip.pc.in" size="275" time="13272392402"/>
+      <file hash="" name="MiniZip64_Changes.txt" size="115" time="13272392402"/>
+      <file hash="" name="MiniZip64_info.txt" size="3122" time="13272392402"/>
+      <file hash="" name="mztools.c" size="8437" time="13272392402"/>
+      <file hash="" name="mztools.h" size="745" time="13272392402"/>
+      <file hash="" name="unzip.c" size="73180" time="13272392402"/>
+      <file hash="" name="unzip.h" size="16789" time="13272392402"/>
+      <file hash="" name="zip.c" size="67849" time="13272392402"/>
+      <file hash="" name="zip.h" size="15728" time="13272392402"/>
+     </directory>
+     <directory name="pascal" time="13341411552">
+      <file hash="" name="example.pas" size="16286" time="13272392402"/>
+      <file hash="" name="readme.txt" size="3080" time="13272392402"/>
+      <file hash="" name="zlibd32.mak" size="2459" time="13272392402"/>
+      <file hash="" name="zlibpas.pas" size="10403" time="13272392402"/>
+     </directory>
+     <directory name="puff" time="13341411552">
+      <file hash="" name="Makefile" size="1941" time="13272392402"/>
+      <file hash="" name="puff.c" size="38723" time="13272392402"/>
+      <file hash="" name="puff.h" size="1450" time="13272392402"/>
+      <file hash="" name="pufftest.c" size="5082" time="13272392402"/>
+      <file hash="" name="README" size="3139" time="13272392402"/>
+      <file hash="" name="zeros.raw" size="2517" time="13272392402"/>
+     </directory>
+     <directory name="testzlib" time="13341411552">
+      <file hash="" name="testzlib.c" size="7643" time="13272392402"/>
+      <file hash="" name="testzlib.txt" size="205" time="13272392402"/>
+     </directory>
+     <directory name="untgz" time="13341411552">
+      <file hash="" name="Makefile" size="248" time="13272392402"/>
+      <file hash="" name="Makefile.msc" size="298" time="13272392402"/>
+      <file hash="" name="untgz.c" size="17216" time="13272392402"/>
+     </directory>
+     <directory name="vstudio" time="13341411552">
+      <directory name="vc10" time="13341411552">
+       <file hash="" name="miniunz.vcxproj" size="18969" time="13272392402"/>
+       <file hash="" name="minizip.vcxproj" size="18549" time="13272392402"/>
+       <file hash="" name="testzlib.vcxproj" size="27312" time="13272392402"/>
+       <file hash="" name="testzlibdll.vcxproj" size="19022" time="13272392402"/>
+       <file hash="" name="zlib.rc" size="957" time="13272392402"/>
+       <file hash="" name="zlibstat.vcxproj" size="28012" time="13272392402"/>
+       <file hash="" name="zlibvc.def" size="7211" time="13272392402"/>
+       <file hash="" name="zlibvc.sln" size="10153" time="13272392402"/>
+       <file hash="" name="zlibvc.vcxproj" size="40243" time="13272392402"/>
+      </directory>
+      <directory name="vc11" time="13341411552">
+       <file hash="" name="miniunz.vcxproj" size="19150" time="13272392402"/>
+       <file hash="" name="minizip.vcxproj" size="18730" time="13272392402"/>
+       <file hash="" name="testzlib.vcxproj" size="27583" time="13272392402"/>
+       <file hash="" name="testzlibdll.vcxproj" size="19203" time="13272392402"/>
+       <file hash="" name="zlib.rc" size="957" time="13272392402"/>
+       <file hash="" name="zlibstat.vcxproj" size="27927" time="13272392402"/>
+       <file hash="" name="zlibvc.def" size="7211" time="13272392402"/>
+       <file hash="" name="zlibvc.sln" size="8539" time="13272392402"/>
+       <file hash="" name="zlibvc.vcxproj" size="42016" time="13272392402"/>
+      </directory>
+      <directory name="vc12" time="13341411552">
+       <file hash="" name="miniunz.vcxproj" size="19241" time="13272392402"/>
+       <file hash="" name="minizip.vcxproj" size="18821" time="13272392402"/>
+       <file hash="" name="testzlib.vcxproj" size="27795" time="13272392402"/>
+       <file hash="" name="testzlibdll.vcxproj" size="19294" time="13272392402"/>
+       <file hash="" name="zlib.rc" size="957" time="13272392402"/>
+       <file hash="" name="zlibstat.vcxproj" size="28063" time="13272392402"/>
+       <file hash="" name="zlibvc.def" size="7211" time="13272392402"/>
+       <file hash="" name="zlibvc.sln" size="8618" time="13272392402"/>
+       <file hash="" name="zlibvc.vcxproj" size="42228" time="13272392402"/>
+      </directory>
+      <directory name="vc14" time="13341411552">
+       <file hash="" name="miniunz.vcxproj" size="19241" time="13272392402"/>
+       <file hash="" name="minizip.vcxproj" size="18821" time="13272392402"/>
+       <file hash="" name="testzlib.vcxproj" size="27795" time="13272392402"/>
+       <file hash="" name="testzlibdll.vcxproj" size="19294" time="13272392402"/>
+       <file hash="" name="zlib.rc" size="957" time="13272392402"/>
+       <file hash="" name="zlibstat.vcxproj" size="29921" time="13281388297"/>
+       <file hash="" name="zlibstat.vcxproj.user" size="168" time="13272469445"/>
+       <file hash="" name="zlibvc.def" size="7211" time="13272392402"/>
+       <file hash="" name="zlibvc.sln" size="8616" time="13272392402"/>
+       <file hash="" name="zlibvc.vcxproj" size="42228" time="13272392402"/>
+      </directory>
+      <directory name="vc9" time="13341411552">
+       <file hash="" name="miniunz.vcproj" size="12939" time="13272392402"/>
+       <file hash="" name="minizip.vcproj" size="12753" time="13272392402"/>
+       <file hash="" name="testzlib.vcproj" size="18951" time="13272392402"/>
+       <file hash="" name="testzlibdll.vcproj" size="12978" time="13272392402"/>
+       <file hash="" name="zlib.rc" size="957" time="13272392402"/>
+       <file hash="" name="zlibstat.vcproj" size="19532" time="13272392402"/>
+       <file hash="" name="zlibvc.def" size="7211" time="13272392402"/>
+       <file hash="" name="zlibvc.sln" size="10612" time="13272392402"/>
+       <file hash="" name="zlibvc.vcproj" size="28028" time="13272392402"/>
+      </directory>
+      <file hash="" name="readme.txt" size="3109" time="13272392402"/>
+     </directory>
+     <file hash="" name="README.contrib" size="3264" time="13272392402"/>
+    </directory>
+    <directory name="doc" time="13341411552">
+     <file hash="" name="algorithm.txt" size="9544" time="13272392402"/>
+     <file hash="" name="rfc1950.txt" size="21121" time="13272392402"/>
+     <file hash="" name="rfc1951.txt" size="37899" time="13272392402"/>
+     <file hash="" name="rfc1952.txt" size="25712" time="13272392402"/>
+     <file hash="" name="txtvsbin.txt" size="5300" time="13272392402"/>
+    </directory>
+    <directory name="examples" time="13341411552">
+     <file hash="" name="enough.c" size="24910" time="13272392402"/>
+     <file hash="" name="fitblk.c" size="8827" time="13272392402"/>
+     <file hash="" name="gun.c" size="26645" time="13272392402"/>
+     <file hash="" name="gzappend.c" size="17481" time="13272392402"/>
+     <file hash="" name="gzjoin.c" size="14581" time="13272392402"/>
+     <file hash="" name="gzlog.c" size="42538" time="13272392402"/>
+     <file hash="" name="gzlog.h" size="4648" time="13272392402"/>
+     <file hash="" name="README.examples" size="1866" time="13272392402"/>
+     <file hash="" name="zlib_how.html" size="30369" time="13272392402"/>
+     <file hash="" name="zpipe.c" size="6528" time="13272392402"/>
+     <file hash="" name="zran.c" size="15847" time="13272392402"/>
+    </directory>
+    <directory name="msdos" time="13341411552">
+     <file hash="" name="Makefile.bor" size="3213" time="13272392402"/>
+     <file hash="" name="Makefile.dj2" size="2724" time="13272392402"/>
+     <file hash="" name="Makefile.emx" size="1516" time="13272392402"/>
+     <file hash="" name="Makefile.msc" size="3036" time="13272392402"/>
+     <file hash="" name="Makefile.tc" size="2757" time="13272392402"/>
+    </directory>
+    <directory name="nintendods" time="13341411552">
+     <file hash="" name="Makefile" size="4867" time="13272392402"/>
+     <file hash="" name="README" size="214" time="13272392402"/>
+    </directory>
+    <directory name="old" time="13341411552">
+     <directory name="os2" time="13341411552">
+      <file hash="" name="Makefile.os2" size="4245" time="13272392402"/>
+      <file hash="" name="zlib.def" size="829" time="13272392402"/>
+     </directory>
+     <file hash="" name="descrip.mms" size="1593" time="13272392402"/>
+     <file hash="" name="Makefile.emx" size="1525" time="13272392402"/>
+     <file hash="" name="Makefile.riscos" size="3918" time="13272392402"/>
+     <file hash="" name="README" size="136" time="13272392402"/>
+     <file hash="" name="visual-basic.txt" size="6220" time="13272392402"/>
+    </directory>
+    <directory name="os400" time="13341411552">
+     <file hash="" name="bndsrc" size="4105" time="13272392402"/>
+     <file hash="" name="make.sh" size="11093" time="13272392402"/>
+     <file hash="" name="README400" size="1919" time="13272392402"/>
+     <file hash="" name="zlib.inc" size="33322" time="13272392402"/>
+    </directory>
+    <directory name="qnx" time="13341411552">
+     <file hash="" name="package.qpg" size="6573" time="13272392402"/>
+    </directory>
+    <directory name="test" time="13341411553">
+     <file hash="" name="example.c" size="17490" time="13272392402"/>
+     <file hash="" name="infcover.c" size="25394" time="13272392402"/>
+     <file hash="" name="minigzip.c" size="16448" time="13272392402"/>
+    </directory>
+    <directory name="watcom" time="13341411553">
+     <file hash="" name="watcom_f.mak" size="1482" time="13272392402"/>
+     <file hash="" name="watcom_l.mak" size="1450" time="13272392402"/>
+    </directory>
+    <directory name="win32" time="13341411553">
+     <file hash="" name="DLL_FAQ.txt" size="18318" time="13272392402"/>
+     <file hash="" name="Makefile.bor" size="2697" time="13272392402"/>
+     <file hash="" name="Makefile.gcc" size="5304" time="13272392402"/>
+     <file hash="" name="Makefile.msc" size="5100" time="13272392402"/>
+     <file hash="" name="README-WIN32.txt" size="4973" time="13272392402"/>
+     <file hash="" name="VisualC.txt" size="127" time="13272392402"/>
+     <file hash="" name="zlib.def" size="1618" time="13272392402"/>
+     <file hash="" name="zlib1.rc" size="1178" time="13272392402"/>
+    </directory>
+    <file hash="" name="adler32.c" size="5390" time="13272392402"/>
+    <file hash="" name="ChangeLog" size="80068" time="13272392402"/>
+    <file hash="" name="CMakeLists.txt" size="8348" time="13272392402"/>
+    <file hash="" name="compress.c" size="2785" time="13272392402"/>
+    <file hash="" name="configure" size="29165" time="13272392402"/>
+    <file hash="" name="crc32.c" size="14495" time="13272392402"/>
+    <file hash="" name="crc32.h" size="31003" time="13272392402"/>
+    <file hash="" name="deflate.c" size="81052" time="13272392402"/>
+    <file hash="" name="deflate.h" size="13499" time="13272392402"/>
+    <file hash="" name="FAQ" size="16941" time="13272392402"/>
+    <file hash="" name="gzclose.c" size="703" time="13272392402"/>
+    <file hash="" name="gzguts.h" size="7037" time="13272392402"/>
+    <file hash="" name="gzlib.c" size="17236" time="13272392402"/>
+    <file hash="" name="gzread.c" size="21082" time="13272392402"/>
+    <file hash="" name="gzwrite.c" size="19918" time="13272392402"/>
+    <file hash="" name="INDEX" size="2056" time="13272392402"/>
+    <file hash="" name="infback.c" size="23355" time="13272392402"/>
+    <file hash="" name="inffast.c" size="13301" time="13272392402"/>
+    <file hash="" name="inffast.h" size="438" time="13272392402"/>
+    <file hash="" name="inffixed.h" size="6426" time="13272392402"/>
+    <file hash="" name="inflate.c" size="56361" time="13272392402"/>
+    <file hash="" name="inflate.h" size="6743" time="13272392402"/>
+    <file hash="" name="inftrees.c" size="13303" time="13272392402"/>
+    <file hash="" name="inftrees.h" size="2990" time="13272392402"/>
+    <file hash="" name="Makefile" size="105" time="13272392402"/>
+    <file hash="" name="Makefile.in" size="14090" time="13272392402"/>
+    <file hash="" name="make_vms.com" size="27269" time="13272392402"/>
+    <file hash="" name="README" size="5302" time="13272392402"/>
+    <file hash="" name="treebuild.xml" size="3258" time="13272392402"/>
+    <file hash="" name="trees.c" size="44964" time="13272392402"/>
+    <file hash="" name="trees.h" size="8600" time="13272392402"/>
+    <file hash="" name="uncompr.c" size="3059" time="13272392402"/>
+    <file hash="" name="zconf.h" size="16832" time="13272392402"/>
+    <file hash="" name="zconf.h.cmakein" size="16885" time="13272392402"/>
+    <file hash="" name="zconf.h.in" size="16832" time="13272392402"/>
+    <file hash="" name="zconf.h.included" size="16832" time="13272392402"/>
+    <file hash="" name="zlib.3" size="4626" time="13272392402"/>
+    <file hash="" name="zlib.3.pdf" size="19318" time="13272392402"/>
+    <file hash="" name="zlib.h" size="98151" time="13272392402"/>
+    <file hash="" name="zlib.map" size="1457" time="13272392402"/>
+    <file hash="" name="zlib.pc.cmakein" size="307" time="13272392402"/>
+    <file hash="" name="zlib.pc.in" size="267" time="13272392402"/>
+    <file hash="" name="zlib1.dll" size="110080" time="13272392402"/>
+    <file hash="" name="zlib2ansi" size="4047" time="13272392402"/>
+    <file hash="" name="zutil.c" size="7629" time="13272392402"/>
+    <file hash="" name="zutil.h" size="7398" time="13272392402"/>
+   </directory>
+  </directory>
+ </component>
+ <component name="sources">
+  <directory name="dom" time="13341855566">
+   <file hash="" name="attribute_node.cpp" size="2480" time="13341492612"/>
+   <file hash="" name="attribute_node.cppm" size="854" time="13341492145"/>
+   <file hash="" name="axis.cpp" size="953" time="13341492635"/>
+   <file hash="" name="axis.cppm" size="461" time="13341491677"/>
+   <file hash="" name="cdata_section.cpp" size="909" time="13341492684"/>
+   <file hash="" name="cdata_section.cppm" size="623" time="13341491886"/>
+   <file hash="" name="character_data.cpp" size="1698" time="13341492745"/>
+   <file hash="" name="character_data.cppm" size="840" time="13341491859"/>
+   <file hash="" name="comment.cpp" size="863" time="13341492786"/>
+   <file hash="" name="comment.cppm" size="617" time="13341491937"/>
+   <file hash="" name="document.cpp" size="3734" time="13341492951"/>
+   <file hash="" name="document.cppm" size="1751" time="13341492159"/>
+   <file hash="" name="document_fragment.cpp" size="486" time="13341493054"/>
+   <file hash="" name="document_fragment.cppm" size="449" time="13341493017"/>
+   <file hash="" name="dom.cppm" size="730" time="13341515037"/>
+   <file hash="" name="dom.vcxproj" size="9678" time="13341513358"/>
+   <file hash="" name="dom.vcxproj.filters" size="1769" time="13341513086"/>
+   <file hash="" name="dom.vcxproj.user" size="168" time="13341491373"/>
+   <file hash="" name="element.cpp" size="4280" time="13341493222"/>
+   <file hash="" name="element.cppm" size="1414" time="13341492153"/>
+   <file hash="" name="entity_reference.cpp" size="989" time="13341493270"/>
+   <file hash="" name="entity_reference.cppm" size="670" time="13341492233"/>
+   <file hash="" name="error.cpp" size="377" time="13341493307"/>
+   <file hash="" name="error.cppm" size="548" time="13341492383"/>
+   <file hash="" name="index.cpp" size="935" time="13341493339"/>
+   <file hash="" name="index.cppm" size="305" time="13341492428"/>
+   <file hash="" name="node.cpp" size="5506" time="13341493398"/>
+   <file hash="" name="node.cppm" size="3907" time="13341491718"/>
+   <file hash="" name="node_operation.cpp" size="262" time="13341493427"/>
+   <file hash="" name="node_operation.cppm" size="384" time="13341492465"/>
+   <file hash="" name="parent_node.cpp" size="6452" time="13341493552"/>
+   <file hash="" name="parent_node.cppm" size="1332" time="13341492061"/>
+   <file hash="" name="parser.cpp" size="7125" time="13341514853"/>
+   <file hash="" name="parser.cppm" size="802" time="13341514132"/>
+   <file hash="" name="processing_instruction.cpp" size="1098" time="13341493609"/>
+   <file hash="" name="processing_instruction.cppm" size="902" time="13341492512"/>
+   <file hash="" name="text.cpp" size="973" time="13341493667"/>
+   <file hash="" name="text.cppm" size="757" time="13341491877"/>
+   <file hash="" name="visitor.cppm" size="893" time="13341492550"/>
+  </directory>
+  <directory name="example" time="13341847006">
+   <directory name="another" time="13341847005">
+    <file hash="" name="another.cpp" size="171" time="13274486936"/>
+    <file hash="" name="another.vcxproj" size="7415" time="13274487627"/>
+    <file hash="" name="another.vcxproj.filters" size="1105" time="13274486936"/>
+    <file hash="" name="another.vcxproj.user" size="168" time="13274486936"/>
+    <file hash="" name="framework.h" size="214" time="13274486936"/>
+   </directory>
+   <directory name="bin" time="13341847006">
+    <file hash="" name="example.exe" size="106496" time="13274486864"/>
+    <file hash="" name="example.ico" size="46227" time="13272393916"/>
+    <file hash="" name="exampled.exe" size="177664" time="13274487492"/>
+   </directory>
+   <directory name="doc" time="13341847006">
+    <directory name="content" time="13341847006">
+     <file hash="" name="file.html" size="250" time="13273872334"/>
+    </directory>
+    <directory name="private" time="13341847006">
+     <file hash="" name="document.txt" size="28" time="13273871764"/>
+    </directory>
+    <file hash="" name="file.txt" size="10" time="13273870646"/>
+    <file hash="" name="index.html" size="305" time="13273872264"/>
+   </directory>
+   <directory name="example" time="13341847006">
+    <file hash="" name="example.cpp" size="5014" time="13274486841"/>
+    <file hash="" name="example.h" size="39" time="13274486842"/>
+    <file hash="" name="example.ico" size="46227" time="13272393916"/>
+    <file hash="" name="example.rc" size="6828" time="13274486842"/>
+    <file hash="" name="example.vcxproj" size="7719" time="13274487627"/>
+    <file hash="" name="example.vcxproj.filters" size="1727" time="13274486842"/>
+    <file hash="" name="example.vcxproj.user" size="168" time="13274486841"/>
+    <file hash="" name="framework.h" size="395" time="13274486841"/>
+    <file hash="" name="Resource.h" size="731" time="13274486842"/>
+    <file hash="" name="small.ico" size="46227" time="13272393916"/>
+    <file hash="" name="targetver.h" size="313" time="13274486842"/>
+   </directory>
+   <directory name="inst" time="13341847006">
+    <file hash="" name="inst.bat" size="171" time="13274487374"/>
+   </directory>
+   <directory name="lib" time="13341847006">
+    <directory name="sub" time="13341847006">
+     <file hash="" name="not_included.lib" size="4533952" time="13273778577"/>
+    </directory>
+    <file hash="" name="another.lib" size="1988" time="13274486973"/>
+    <file hash="" name="anotherd.lib" size="3240" time="13274487491"/>
+    <file hash="" name="somelib.lib" size="751380" time="13273680788"/>
+   </directory>
+   <file hash="" name="example.sln" size="2349" time="13274486957"/>
+  </directory>
+  <directory name="file_compare" time="13341681404">
+   <file hash="" name="file_compare.vcxproj" size="8051" time="13341681429"/>
+   <file hash="" name="file_compare.vcxproj.filters" size="212" time="13341681366"/>
+   <file hash="" name="file_compare.vcxproj.user" size="168" time="13341681024"/>
+   <file hash="" name="main.cpp" size="6264" time="13341681404"/>
+  </directory>
+  <directory name="lexer" time="13341855566">
+   <file hash="" name="keyword.cpp" size="868" time="13341500705"/>
+   <file hash="" name="keyword.cppm" size="719" time="13341500195"/>
+   <file hash="" name="lexeme.cppm" size="1261" time="13341494878"/>
+   <file hash="" name="lexer.cpp" size="22879" time="13341501033"/>
+   <file hash="" name="lexer.cppm" size="8091" time="13341500510"/>
+   <file hash="" name="lexer.vcxproj" size="8673" time="13341503070"/>
+   <file hash="" name="lexer.vcxproj.filters" size="1048" time="13341503070"/>
+   <file hash="" name="lexer.vcxproj.user" size="168" time="13341432566"/>
+   <file hash="" name="lib.cppm" size="499" time="13341503278"/>
+   <file hash="" name="parsing_exception.cpp" size="754" time="13341501115"/>
+   <file hash="" name="parsing_exception.cppm" size="1031" time="13341500928"/>
+   <file hash="" name="parsing_log.cpp" size="471" time="13341501155"/>
+   <file hash="" name="parsing_log.cppm" size="831" time="13341500424"/>
+   <file hash="" name="source_pos.cpp" size="535" time="13341501202"/>
+   <file hash="" name="source_pos.cppm" size="1416" time="13341432745"/>
+   <file hash="" name="span.cpp" size="407" time="13341501235"/>
+   <file hash="" name="span.cppm" size="779" time="13341500498"/>
+   <file hash="" name="token.cpp" size="817" time="13341501269"/>
+   <file hash="" name="token.cppm" size="940" time="13341494785"/>
+   <file hash="" name="trivial_lexer.cpp" size="876" time="13341501311"/>
+   <file hash="" name="trivial_lexer.cppm" size="605" time="13341503287"/>
+   <file hash="" name="xml_parsing_log.cpp" size="2997" time="13341501372"/>
+   <file hash="" name="xml_parsing_log.cppm" size="1193" time="13341500658"/>
+  </directory>
+  <directory name="make_package_id" time="13341592214">
+   <file hash="" name="main.cpp" size="433" time="13341592214"/>
+   <file hash="" name="make_package_id.vcxproj" size="8251" time="13341580864"/>
+   <file hash="" name="make_package_id.vcxproj.filters" size="212" time="13341580518"/>
+   <file hash="" name="make_package_id.vcxproj.user" size="168" time="13341580392"/>
+  </directory>
+  <directory name="package_editor" time="13342030999">
+   <file hash="" name="about_dialog.cpp" size="2289" time="13341747190"/>
+   <file hash="" name="about_dialog.cppm" size="407" time="13341746966"/>
+   <file hash="" name="action.cpp" size="11094" time="13341747447"/>
+   <file hash="" name="action.cppm" size="2897" time="13341683753"/>
+   <file hash="" name="add_directories_and_files_dialog.cpp" size="10005" time="13341748148"/>
+   <file hash="" name="add_directories_and_files_dialog.cppm" size="1638" time="13341688226"/>
+   <file hash="" name="build.cpp" size="13107" time="13342030999"/>
+   <file hash="" name="build.cppm" size="1540" time="13341749406"/>
+   <file hash="" name="component.cpp" size="26856" time="13341750669"/>
+   <file hash="" name="component.cppm" size="4290" time="13341684666"/>
+   <file hash="" name="component_dialog.cpp" size="4649" time="13341751263"/>
+   <file hash="" name="component_dialog.cppm" size="670" time="13341685094"/>
+   <file hash="" name="configuration.cpp" size="23975" time="13341753069"/>
+   <file hash="" name="configuration.cppm" size="2837" time="13341835070"/>
+   <file hash="" name="content.cpp" size="5940" time="13341772936"/>
+   <file hash="" name="content.cppm" size="3079" time="13341684216"/>
+   <file hash="" name="directory.cpp" size="4543" time="13341773225"/>
+   <file hash="" name="directory.cppm" size="1196" time="13341684468"/>
+   <file hash="" name="edit_configuration_dialog.cpp" size="13565" time="13341773980"/>
+   <file hash="" name="edit_configuration_dialog.cppm" size="1034" time="13341685187"/>
+   <file hash="" name="engine_variable.cpp" size="7538" time="13341774215"/>
+   <file hash="" name="engine_variable.cppm" size="2454" time="13341685322"/>
+   <file hash="" name="environment.cpp" size="20469" time="13341774932"/>
+   <file hash="" name="environment.cppm" size="3520" time="13341685497"/>
+   <file hash="" name="environment_variable_dialog.cpp" size="6492" time="13341835013"/>
+   <file hash="" name="environment_variable_dialog.cppm" size="847" time="13341685608"/>
+   <file hash="" name="error.cpp" size="1006" time="13341835133"/>
+   <file hash="" name="error.cppm" size="773" time="13341685697"/>
+   <file hash="" name="file.cpp" size="1268" time="13341835271"/>
+   <file hash="" name="file.cppm" size="747" time="13341684335"/>
+   <file hash="" name="links.cpp" size="24988" time="13341836326"/>
+   <file hash="" name="links.cppm" size="5718" time="13341685931"/>
+   <file hash="" name="link_directory_dialog.cpp" size="4493" time="13341835507"/>
+   <file hash="" name="link_directory_dialog.cppm" size="760" time="13341686017"/>
+   <file hash="" name="main.cpp" size="1014" time="13341688610"/>
+   <file hash="" name="main_window.cpp" size="38178" time="13341837672"/>
+   <file hash="" name="main_window.cppm" size="4584" time="13341688557"/>
+   <file hash="" name="new_package_dialog.cpp" size="7638" time="13341838112"/>
+   <file hash="" name="new_package_dialog.cppm" size="646" time="13341686101"/>
+   <file hash="" name="node.cpp" size="20843" time="13341838735"/>
+   <file hash="" name="node.cppm" size="5247" time="13341687669"/>
+   <file hash="" name="package.cpp" size="16215" time="13341839522"/>
+   <file hash="" name="package.cppm" size="4577" time="13341687557"/>
+   <file hash="" name="package_content_view.cpp" size="5847" time="13341840629"/>
+   <file hash="" name="package_content_view.cppm" size="2398" time="13341687898"/>
+   <file hash="" name="package_editor.vcxproj" size="13207" time="13341845837"/>
+   <file hash="" name="package_editor.vcxproj.filters" size="3336" time="13341845837"/>
+   <file hash="" name="package_editor.vcxproj.user" size="168" time="13341682714"/>
+   <file hash="" name="package_explorer.cpp" size="9084" time="13341840052"/>
+   <file hash="" name="package_explorer.cppm" size="2615" time="13341688053"/>
+   <file hash="" name="path_bar.cpp" size="18588" time="13341840601"/>
+   <file hash="" name="path_bar.cppm" size="7485" time="13341686552"/>
+   <file hash="" name="path_directory_dialog.cpp" size="4494" time="13341840876"/>
+   <file hash="" name="path_directory_dialog.cppm" size="766" time="13341686677"/>
+   <file hash="" name="preinstall_component.cpp" size="3295" time="13341841147"/>
+   <file hash="" name="preinstall_component.cppm" size="565" time="13341687574"/>
+   <file hash="" name="properties_view.cpp" size="27101" time="13341844643"/>
+   <file hash="" name="properties_view.cppm" size="1540" time="13341835565"/>
+   <file hash="" name="resource.rc" size="2103" time="13277240506"/>
+   <file hash="" name="rule.cpp" size="21518" time="13341844263"/>
+   <file hash="" name="rule.cppm" size="4061" time="13341684014"/>
+   <file hash="" name="rule_dialog.cpp" size="7672" time="13341844597"/>
+   <file hash="" name="rule_dialog.cppm" size="724" time="13341686984"/>
+   <file hash="" name="shortcut_dialog.cpp" size="15942" time="13341845386"/>
+   <file hash="" name="shortcut_dialog.cppm" size="969" time="13341687086"/>
+   <file hash="" name="tool_bar.cpp" size="1095" time="13341845707"/>
+   <file hash="" name="tool_bar.cppm" size="591" time="13341687175"/>
+   <file hash="" name="uninstall_component.cpp" size="1890" time="13341845882"/>
+   <file hash="" name="uninstall_component.cppm" size="514" time="13341687249"/>
+  </directory>
+  <directory name="parser" time="13341855566">
+   <file hash="" name="match.cppm" size="411" time="13341501480"/>
+   <file hash="" name="parser.cppm" size="264" time="13341501716"/>
+   <file hash="" name="parser.vcxproj" size="7787" time="13341501716"/>
+   <file hash="" name="parser.vcxproj.filters" size="335" time="13341501716"/>
+   <file hash="" name="parser.vcxproj.user" size="168" time="13341501411"/>
+   <file hash="" name="range.cppm" size="290" time="13341501609"/>
+   <file hash="" name="value.cppm" size="339" time="13341501670"/>
+  </directory>
+  <directory name="rex" time="13341855575">
+   <file hash="" name="algorithm.cpp" size="1869" time="13341582097"/>
+   <file hash="" name="algorithm.cppm" size="546" time="13341581280"/>
+   <file hash="" name="context.cpp" size="1511" time="13341582172"/>
+   <file hash="" name="context.cppm" size="793" time="13341581441"/>
+   <file hash="" name="match.cpp" size="1690" time="13341582279"/>
+   <file hash="" name="match.cppm" size="711" time="13341581530"/>
+   <file hash="" name="nfa.cpp" size="3563" time="13341582406"/>
+   <file hash="" name="nfa.cppm" size="1578" time="13341581606"/>
+   <file hash="" name="rex.cppm" size="459" time="13341583205"/>
+   <file hash="" name="rex.vcxproj" size="8999" time="13341583207"/>
+   <file hash="" name="rex.vcxproj.filters" size="1084" time="13341583207"/>
+   <file hash="" name="rex.vcxproj.user" size="168" time="13341581149"/>
+   <file hash="" name="rex_class_map.cpp" size="10027399" time="13341582441"/>
+   <file hash="" name="rex_class_map.cppm" size="256" time="13341582454"/>
+   <file hash="" name="rex_lexer.cpp" size="57848" time="13341582637"/>
+   <file hash="" name="rex_lexer.cppm" size="579" time="13341582343"/>
+   <file hash="" name="rex_parser.cpp" size="59366" time="13341583089"/>
+   <file hash="" name="rex_parser.cppm" size="984" time="13341583089"/>
+   <file hash="" name="rex_tokens.cpp" size="1618" time="13341582919"/>
+   <file hash="" name="rex_tokens.cppm" size="777" time="13341582526"/>
+   <file hash="" name="symbol.cpp" size="922" time="13341592219"/>
+   <file hash="" name="symbol.cppm" size="1504" time="13341581368"/>
+   <file hash="" name="token_value_parsers.cpp" size="4144" time="13341583027"/>
+   <file hash="" name="token_value_parsers.cppm" size="360" time="13341582031"/>
+  </directory>
+  <directory name="uninstall" time="13342113773">
+   <file hash="" name="main.cpp" size="1766" time="13341850311"/>
+   <file hash="" name="resource.rc" size="37" time="13273382643"/>
+   <file hash="" name="uninstall.vcxproj" size="9053" time="13342114065"/>
+   <file hash="" name="uninstall.vcxproj.filters" size="290" time="13341849890"/>
+   <file hash="" name="uninstall.vcxproj.user" size="168" time="13342113773"/>
+  </directory>
+  <directory name="util" time="13341942413">
+   <file hash="" name="ansi.cpp" size="22209" time="13341411910"/>
+   <file hash="" name="ansi.cppm" size="1482" time="13341406662"/>
+   <file hash="" name="binary_stream_reader.cpp" size="5079" time="13341941462"/>
+   <file hash="" name="binary_stream_reader.cppm" size="1235" time="13341600144"/>
+   <file hash="" name="binary_stream_writer.cpp" size="4882" time="13341941440"/>
+   <file hash="" name="binary_stream_writer.cppm" size="1395" time="13341600801"/>
+   <file hash="" name="buffered_stream.cpp" size="2351" time="13341412179"/>
+   <file hash="" name="buffered_stream.cppm" size="990" time="13341408228"/>
+   <file hash="" name="code_formatter.cpp" size="4046" time="13341412412"/>
+   <file hash="" name="code_formatter.cppm" size="2593" time="13341408909"/>
+   <file hash="" name="compression.cpp" size="1087" time="13341412692"/>
+   <file hash="" name="compression.cppm" size="332" time="13341408439"/>
+   <file hash="" name="deflate_stream.cpp" size="5158" time="13341412800"/>
+   <file hash="" name="deflate_stream.cppm" size="1466" time="13341408573"/>
+   <file hash="" name="fiber.cpp" size="2437" time="13341412922"/>
+   <file hash="" name="fiber.cppm" size="455" time="13341408695"/>
+   <file hash="" name="file_stream.cpp" size="5657" time="13341504320"/>
+   <file hash="" name="file_stream.cppm" size="1391" time="13341409438"/>
+   <file hash="" name="file_util.cpp" size="2787" time="13341413276"/>
+   <file hash="" name="file_util.cppm" size="789" time="13341408784"/>
+   <file hash="" name="handle.cppm" size="953" time="13341414954"/>
+   <file hash="" name="init_done.cpp" size="490" time="13341413419"/>
+   <file hash="" name="init_done.cppm" size="263" time="13341409055"/>
+   <file hash="" name="json.cpp" size="10921" time="13341413502"/>
+   <file hash="" name="json.cppm" size="4423" time="13341409119"/>
+   <file hash="" name="log.cpp" size="3344" time="13341413615"/>
+   <file hash="" name="log.cppm" size="651" time="13341409234"/>
+   <file hash="" name="log_file_writer.cpp" size="2292" time="13341413673"/>
+   <file hash="" name="log_file_writer.cppm" size="1374" time="13341409321"/>
+   <file hash="" name="memory_reader.cpp" size="3604" time="13341413748"/>
+   <file hash="" name="memory_reader.cppm" size="961" time="13341409527"/>
+   <file hash="" name="memory_stream.cpp" size="1903" time="13341413844"/>
+   <file hash="" name="memory_stream.cppm" size="998" time="13341409684"/>
+   <file hash="" name="memory_writer.cpp" size="3237" time="13341413782"/>
+   <file hash="" name="memory_writer.cppm" size="1013" time="13341409755"/>
+   <file hash="" name="multiprecision.cpp" size="18039" time="13341413923"/>
+   <file hash="" name="multiprecision.cppm" size="5698" time="13341409916"/>
+   <file hash="" name="path.cpp" size="12326" time="13341414128"/>
+   <file hash="" name="path.cppm" size="1642" time="13341410117"/>
+   <file hash="" name="prime.cpp" size="997" time="13341414348"/>
+   <file hash="" name="prime.cppm" size="385" time="13341410195"/>
+   <file hash="" name="process.cpp" size="2667" time="13341414426"/>
+   <file hash="" name="process.cppm" size="1338" time="13341410264"/>
+   <file hash="" name="rand.cpp" size="2531" time="13341406980"/>
+   <file hash="" name="rand.cppm" size="375" time="13341406994"/>
+   <file hash="" name="sha1.cpp" size="3607" time="13341414711"/>
+   <file hash="" name="sha1.cppm" size="1011" time="13341410754"/>
+   <file hash="" name="socket.cpp" size="11543" time="13341414603"/>
+   <file hash="" name="socket.cppm" size="1722" time="13341410860"/>
+   <file hash="" name="stream.cpp" size="2330" time="13341414771"/>
+   <file hash="" name="stream.cppm" size="1757" time="13341406642"/>
+   <file hash="" name="system.cpp" size="12102" time="13341415060"/>
+   <file hash="" name="system.cppm" size="1377" time="13341410963"/>
+   <file hash="" name="text_util.cpp" size="16648" time="13341682068"/>
+   <file hash="" name="text_util.cppm" size="3454" time="13341682083"/>
+   <file hash="" name="time.cpp" size="16821" time="13341942413"/>
+   <file hash="" name="time.cppm" size="4885" time="13341601620"/>
+   <file hash="" name="unicode.cpp" size="107803" time="13341415809"/>
+   <file hash="" name="unicode.cppm" size="43492" time="13341411339"/>
+   <file hash="" name="util.cppm" size="1136" time="13341580788"/>
+   <file hash="" name="util.vcxproj" size="10981" time="13341854549"/>
+   <file hash="" name="util.vcxproj.filters" size="2993" time="13341415580"/>
+   <file hash="" name="util.vcxproj.user" size="168" time="13341405750"/>
+   <file hash="" name="uuid.cpp" size="3493" time="13341407078"/>
+   <file hash="" name="uuid.cppm" size="1777" time="13341406881"/>
+   <file hash="" name="zlib_interface.c" size="3313" time="13341411475"/>
+   <file hash="" name="zlib_interface.h" size="876" time="13341411404"/>
+  </directory>
+  <directory name="util_inc" time="13341855389">
+   <file hash="" name="native_process.cpp" size="8947" time="13341410380"/>
+   <file hash="" name="native_process.hpp" size="1480" time="13341410380"/>
+   <file hash="" name="text_util.cpp" size="14766" time="13341410561"/>
+   <file hash="" name="text_util.hpp" size="1332" time="13341410542"/>
+   <file hash="" name="util_inc.vcxproj" size="8400" time="13341410627"/>
+   <file hash="" name="util_inc.vcxproj.filters" size="387" time="13341410563"/>
+   <file hash="" name="util_inc.vcxproj.user" size="168" time="13341410298"/>
+  </directory>
+  <directory name="wing" time="13341773950">
+   <directory name="res" time="13341683229">
+    <file hash="" name="arrow.wing.bmp" size="4150" time="13272392403"/>
+    <file hash="" name="column.size.wing.cur" size="326" time="13276373200"/>
+    <file hash="" name="horizontal.splitter.wing.cur" size="326" time="13272392403"/>
+    <file hash="" name="vertical.splitter.wing.cur" size="326" time="13272392403"/>
+    <file hash="" name="wing.resource.rc" size="344" time="13276370412"/>
+    <file hash="" name="wing.resource.xml" size="435" time="13276369655"/>
+   </directory>
+   <file hash="" name="ansi.cpp" size="15142" time="13341496118"/>
+   <file hash="" name="ansi.cppm" size="1478" time="13341418460"/>
+   <file hash="" name="application.cpp" size="2720" time="13341496178"/>
+   <file hash="" name="application.cppm" size="2090" time="13341418801"/>
+   <file hash="" name="base.cpp" size="9432" time="13341496386"/>
+   <file hash="" name="base.cppm" size="3832" time="13341418206"/>
+   <file hash="" name="binary_resource_ptr.cpp" size="1219" time="13341496268"/>
+   <file hash="" name="binary_resource_ptr.cppm" size="622" time="13341418865"/>
+   <file hash="" name="bordered_control.cpp" size="10904" time="13341496493"/>
+   <file hash="" name="bordered_control.cppm" size="4440" time="13341496455"/>
+   <file hash="" name="buffer.cpp" size="472" time="13341496531"/>
+   <file hash="" name="buffer.cppm" size="587" time="13341433308"/>
+   <file hash="" name="button.cpp" size="3014" time="13341496596"/>
+   <file hash="" name="button.cppm" size="1075" time="13341433696"/>
+   <file hash="" name="check_box.cpp" size="5387" time="13341496662"/>
+   <file hash="" name="check_box.cppm" size="2394" time="13341433838"/>
+   <file hash="" name="clipboard.cpp" size="5331" time="13341496776"/>
+   <file hash="" name="clipboard.cppm" size="1815" time="13341433935"/>
+   <file hash="" name="color.cpp" size="1220" time="13341496808"/>
+   <file hash="" name="color.cppm" size="565" time="13341418318"/>
+   <file hash="" name="combo_box.cpp" size="4564" time="13341496886"/>
+   <file hash="" name="combo_box.cppm" size="1888" time="13341488872"/>
+   <file hash="" name="component.cpp" size="339" time="13341496919"/>
+   <file hash="" name="component.cppm" size="2585" time="13341418921"/>
+   <file hash="" name="console.cpp" size="14203" time="13341496969"/>
+   <file hash="" name="console.cppm" size="3850" time="13341489114"/>
+   <file hash="" name="container.cpp" size="3531" time="13341497017"/>
+   <file hash="" name="container.cppm" size="887" time="13341418993"/>
+   <file hash="" name="container_control.cpp" size="9004" time="13341497239"/>
+   <file hash="" name="container_control.cppm" size="1699" time="13341433407"/>
+   <file hash="" name="control.cpp" size="42581" time="13341497396"/>
+   <file hash="" name="control.cppm" size="26024" time="13341419409"/>
+   <file hash="" name="cursor.cpp" size="1638" time="13341497477"/>
+   <file hash="" name="cursor.cppm" size="1327" time="13341419113"/>
+   <file hash="" name="dialog.cpp" size="4222" time="13341497595"/>
+   <file hash="" name="dialog.cppm" size="669" time="13341773950"/>
+   <file hash="" name="edit_command.cpp" size="4452" time="13341497633"/>
+   <file hash="" name="edit_command.cppm" size="3334" time="13341432396"/>
+   <file hash="" name="edit_command_list.cpp" size="2943" time="13341497682"/>
+   <file hash="" name="edit_command_list.cppm" size="1790" time="13341432344"/>
+   <file hash="" name="environment.cpp" size="4592" time="13341497895"/>
+   <file hash="" name="environment.cppm" size="805" time="13341489871"/>
+   <file hash="" name="event.cpp" size="900" time="13341497949"/>
+   <file hash="" name="event.cppm" size="2653" time="13341419188"/>
+   <file hash="" name="file_util.cpp" size="1279" time="13341498074"/>
+   <file hash="" name="file_util.cppm" size="458" time="13341489971"/>
+   <file hash="" name="graphics.cpp" size="6853" time="13341498183"/>
+   <file hash="" name="graphics.cppm" size="3821" time="13341752894"/>
+   <file hash="" name="group_box.cpp" size="4515" time="13341498246"/>
+   <file hash="" name="group_box.cppm" size="2013" time="13341490094"/>
+   <file hash="" name="icon.cpp" size="1260" time="13341498311"/>
+   <file hash="" name="icon.cppm" size="889" time="13341490185"/>
+   <file hash="" name="icon_list_view.cpp" size="15521" time="13341498400"/>
+   <file hash="" name="icon_list_view.cppm" size="7157" time="13341490333"/>
+   <file hash="" name="image_list.cpp" size="1846" time="13341499301"/>
+   <file hash="" name="image_list.cppm" size="774" time="13341490413"/>
+   <file hash="" name="init_done.cpp" size="502" time="13341499369"/>
+   <file hash="" name="init_done.cppm" size="324" time="13341490489"/>
+   <file hash="" name="installation.cpp" size="2214" time="13341499421"/>
+   <file hash="" name="installation.cppm" size="494" time="13341490578"/>
+   <file hash="" name="keys.cpp" size="3962" time="13341499457"/>
+   <file hash="" name="keys.cppm" size="4386" time="13341418176"/>
+   <file hash="" name="label.cpp" size="3590" time="13341499509"/>
+   <file hash="" name="label.cppm" size="1780" time="13341490682"/>
+   <file hash="" name="list_box.cpp" size="4885" time="13341499575"/>
+   <file hash="" name="list_box.cppm" size="1997" time="13341434049"/>
+   <file hash="" name="list_view.cpp" size="25721" time="13341499676"/>
+   <file hash="" name="list_view.cppm" size="11892" time="13341490853"/>
+   <file hash="" name="log_view.cpp" size="1080" time="13341499726"/>
+   <file hash="" name="log_view.cppm" size="421" time="13341490923"/>
+   <file hash="" name="manual_reset_event.cpp" size="762" time="13341499777"/>
+   <file hash="" name="manual_reset_event.cppm" size="431" time="13341586554"/>
+   <file hash="" name="menu.cpp" size="69382" time="13341499870"/>
+   <file hash="" name="menu.cppm" size="14481" time="13341491122"/>
+   <file hash="" name="message_box.cpp" size="705" time="13341499949"/>
+   <file hash="" name="message_box.cppm" size="616" time="13341491202"/>
+   <file hash="" name="metrics.cpp" size="7249" time="13341515062"/>
+   <file hash="" name="metrics.cppm" size="4315" time="13341495503"/>
+   <file hash="" name="padded_control.cpp" size="5860" time="13341515273"/>
+   <file hash="" name="padded_control.cppm" size="2503" time="13341494021"/>
+   <file hash="" name="panel.cpp" size="603" time="13341515320"/>
+   <file hash="" name="panel.cppm" size="409" time="13341494052"/>
+   <file hash="" name="path_view.cpp" size="14061" time="13341515404"/>
+   <file hash="" name="path_view.cppm" size="5220" time="13341494190"/>
+   <file hash="" name="progress_bar.cpp" size="9753" time="13341576993"/>
+   <file hash="" name="progress_bar.cppm" size="4174" time="13341494297"/>
+   <file hash="" name="radio_button.cpp" size="7183" time="13341577059"/>
+   <file hash="" name="radio_button.cppm" size="2533" time="13341494403"/>
+   <file hash="" name="registry.cpp" size="5790" time="13341577220"/>
+   <file hash="" name="registry.cppm" size="1487" time="13341489237"/>
+   <file hash="" name="resource_manager.cpp" size="2001" time="13341577285"/>
+   <file hash="" name="resource_manager.cppm" size="1038" time="13341418654"/>
+   <file hash="" name="scrollable_control.cpp" size="12418" time="13341577339"/>
+   <file hash="" name="scrollable_control.cppm" size="3239" time="13341494507"/>
+   <file hash="" name="shell.cpp" size="14750" time="13341577585"/>
+   <file hash="" name="shell.cppm" size="838" time="13341494568"/>
+   <file hash="" name="source_code_view.cpp" size="13148" time="13341577661"/>
+   <file hash="" name="source_code_view.cppm" size="5090" time="13341494925"/>
+   <file hash="" name="split_container.cpp" size="19105" time="13341577723"/>
+   <file hash="" name="split_container.cppm" size="7877" time="13341495054"/>
+   <file hash="" name="status_bar.cpp" size="23510" time="13341577798"/>
+   <file hash="" name="status_bar.cppm" size="10614" time="13341495203"/>
+   <file hash="" name="tab_control.cpp" size="29356" time="13341577874"/>
+   <file hash="" name="tab_control.cppm" size="8740" time="13341495374"/>
+   <file hash="" name="text_box.cpp" size="3978" time="13341577927"/>
+   <file hash="" name="text_box.cppm" size="2204" time="13341495566"/>
+   <file hash="" name="text_view.cpp" size="89623" time="13341578531"/>
+   <file hash="" name="text_view.cppm" size="17588" time="13341578038"/>
+   <file hash="" name="tool_bar.cpp" size="35477" time="13341578607"/>
+   <file hash="" name="tool_bar.cppm" size="13051" time="13341495851"/>
+   <file hash="" name="tool_tip.cpp" size="4880" time="13341578683"/>
+   <file hash="" name="tool_tip.cppm" size="2483" time="13341495816"/>
+   <file hash="" name="tree_view.cpp" size="41100" time="13341578771"/>
+   <file hash="" name="tree_view.cppm" size="15237" time="13341496017"/>
+   <file hash="" name="window.cpp" size="20408" time="13341578901"/>
+   <file hash="" name="window.cppm" size="5830" time="13341433614"/>
+   <file hash="" name="window_manager.cpp" size="2314" time="13341578984"/>
+   <file hash="" name="window_manager.cppm" size="863" time="13341418578"/>
+   <file hash="" name="wing.cppm" size="2039" time="13341686511"/>
+   <file hash="" name="wing.vcxproj" size="13767" time="13341856205"/>
+   <file hash="" name="wing.vcxproj.filters" size="5416" time="13341578979"/>
+   <file hash="" name="wing.vcxproj.user" size="168" time="13341417704"/>
+  </directory>
+  <directory name="wing_gui" time="13341849883">
+   <file hash="" name="action_dialog.cpp" size="3419" time="13341677693"/>
+   <file hash="" name="action_dialog.cppm" size="546" time="13341676221"/>
+   <file hash="" name="install_window.cpp" size="26231" time="13341679589"/>
+   <file hash="" name="install_window.cppm" size="3110" time="13341676945"/>
+   <file hash="" name="message_dialog.cpp" size="2310" time="13341679935"/>
+   <file hash="" name="message_dialog.cppm" size="493" time="13341677077"/>
+   <file hash="" name="status_message.cpp" size="1899" time="13341680028"/>
+   <file hash="" name="status_message.cppm" size="2535" time="13341676791"/>
+   <file hash="" name="uninstall_window.cpp" size="16354" time="13341680779"/>
+   <file hash="" name="uninstall_window.cppm" size="2337" time="13341677307"/>
+   <file hash="" name="wing_gui.cppm" size="380" time="13341849883"/>
+   <file hash="" name="wing_gui.vcxproj" size="8643" time="13341856022"/>
+   <file hash="" name="wing_gui.vcxproj.filters" size="704" time="13341849890"/>
+   <file hash="" name="wing_gui.vcxproj.user" size="168" time="13341675923"/>
+  </directory>
+  <directory name="wing_package" time="13342112911">
+   <file hash="" name="component.cpp" size="7606" time="13341677930"/>
+   <file hash="" name="component.cppm" size="1667" time="13341677958"/>
+   <file hash="" name="directory.cpp" size="9910" time="13341601427"/>
+   <file hash="" name="directory.cppm" size="2417" time="13341599531"/>
+   <file hash="" name="environment.cpp" size="13676" time="13341590942"/>
+   <file hash="" name="environment.cppm" size="4052" time="13341585606"/>
+   <file hash="" name="file.cpp" size="6772" time="13341851119"/>
+   <file hash="" name="file.cppm" size="2185" time="13341599495"/>
+   <file hash="" name="info.cpp" size="947" time="13341591572"/>
+   <file hash="" name="info.cppm" size="1195" time="13341585847"/>
+   <file hash="" name="installation_component.cpp" size="3930" time="13341592225"/>
+   <file hash="" name="installation_component.cppm" size="638" time="13341585954"/>
+   <file hash="" name="links.cpp" size="16388" time="13341592987"/>
+   <file hash="" name="links.cppm" size="3946" time="13341586079"/>
+   <file hash="" name="make_setup.cpp" size="65211" time="13342112911"/>
+   <file hash="" name="make_setup.cppm" size="633" time="13341586188"/>
+   <file hash="" name="node.cpp" size="5644" time="13341596619"/>
+   <file hash="" name="node.cppm" size="2003" time="13341585211"/>
+   <file hash="" name="package.cpp" size="37584" time="13341598209"/>
+   <file hash="" name="package.cppm" size="8309" time="13341586534"/>
+   <file hash="" name="path_matcher.cpp" size="15398" time="13341599260"/>
+   <file hash="" name="path_matcher.cppm" size="3381" time="13341599215"/>
+   <file hash="" name="preinstall_component.cpp" size="9231" time="13341662687"/>
+   <file hash="" name="preinstall_component.cppm" size="1196" time="13341586969"/>
+   <file hash="" name="uninstall_bin_file.cpp" size="1460" time="13341662853"/>
+   <file hash="" name="uninstall_bin_file.cppm" size="726" time="13341587060"/>
+   <file hash="" name="uninstall_component.cpp" size="3003" time="13341663034"/>
+   <file hash="" name="uninstall_component.cppm" size="890" time="13341587204"/>
+   <file hash="" name="uninstall_exe_file.cpp" size="4405" time="13341663291"/>
+   <file hash="" name="uninstall_exe_file.cppm" size="780" time="13341587341"/>
+   <file hash="" name="variable.cpp" size="6297" time="13341663490"/>
+   <file hash="" name="variable.cppm" size="2140" time="13341586276"/>
+   <file hash="" name="wing_package.cppm" size="843" time="13341676513"/>
+   <file hash="" name="wing_package.vcxproj" size="10516" time="13341856143"/>
+   <file hash="" name="wing_package.vcxproj.filters" size="1685" time="13341676514"/>
+   <file hash="" name="wing_package.vcxproj.user" size="168" time="13341584973"/>
+  </directory>
+  <directory name="wingstall" time="13341682303">
+   <file hash="" name="main.cpp" size="14181" time="13341682303"/>
+   <file hash="" name="wingstall.vcxproj" size="8974" time="13341682002"/>
+   <file hash="" name="wingstall.vcxproj.filters" size="212" time="13341681766"/>
+   <file hash="" name="wingstall.vcxproj.user" size="168" time="13341681510"/>
+  </directory>
+  <directory name="wingstall_config" time="13341855575">
+   <file hash="" name="build_props.cpp" size="5095" time="13341593929"/>
+   <file hash="" name="build_props.cppm" size="387" time="13341593240"/>
+   <file hash="" name="config.cpp" size="4841" time="13341594404"/>
+   <file hash="" name="config.cppm" size="1240" time="13341593452"/>
+   <file hash="" name="wingstall_config.cppm" size="270" time="13341594445"/>
+   <file hash="" name="wingstall_config.vcxproj" size="8197" time="13341594446"/>
+   <file hash="" name="wingstall_config.vcxproj.filters" size="397" time="13341594446"/>
+   <file hash="" name="wingstall_config.vcxproj.user" size="168" time="13341593166"/>
+  </directory>
+  <directory name="wnginst" time="13341583462">
+   <file hash="" name="main.cpp" size="6668" time="13341583462"/>
+   <file hash="" name="wnginst.vcxproj" size="8476" time="13341583293"/>
+   <file hash="" name="wnginst.vcxproj.filters" size="212" time="13341581267"/>
+   <file hash="" name="wnginst.vcxproj.user" size="168" time="13341580923"/>
+  </directory>
+  <directory name="xml" time="13341855566">
+   <file hash="" name="rules.cpp" size="2036" time="13341503350"/>
+   <file hash="" name="rules.cppm" size="2933" time="13341504391"/>
+   <file hash="" name="xml.cppm" size="346" time="13341513798"/>
+   <file hash="" name="xml.vcxproj" size="8606" time="13341513799"/>
+   <file hash="" name="xml.vcxproj.filters" size="691" time="13341513799"/>
+   <file hash="" name="xml.vcxproj.user" size="168" time="13341502368"/>
+   <file hash="" name="xml_content_handler.cpp" size="1489" time="13341503423"/>
+   <file hash="" name="xml_content_handler.cppm" size="2792" time="13341502611"/>
+   <file hash="" name="xml_parser.cpp" size="398531" time="13341503877"/>
+   <file hash="" name="xml_parser.cppm" size="6178" time="13341504426"/>
+   <file hash="" name="xml_parser_interface.cpp" size="1910" time="13341504359"/>
+   <file hash="" name="xml_parser_interface.cppm" size="2715" time="13341504003"/>
+   <file hash="" name="xml_processor.cpp" size="8317" time="13341504573"/>
+   <file hash="" name="xml_processor.cppm" size="3348" time="13341503156"/>
+  </directory>
+  <directory name="xpath" time="13341855612">
+   <file hash="" name="xpath.cppm" size="579" time="13341512102"/>
+   <file hash="" name="xpath.vcxproj" size="9484" time="13341512102"/>
+   <file hash="" name="xpath.vcxproj.filters" size="1277" time="13341512102"/>
+   <file hash="" name="xpath.vcxproj.user" size="168" time="13341504841"/>
+   <file hash="" name="xpath_class_map.cpp" size="9976938" time="13341505244"/>
+   <file hash="" name="xpath_class_map.cppm" size="270" time="13341505559"/>
+   <file hash="" name="xpath_context.cpp" size="354" time="13341507889"/>
+   <file hash="" name="xpath_context.cppm" size="572" time="13341855612"/>
+   <file hash="" name="xpath_evaluate.cpp" size="909" time="13341511914"/>
+   <file hash="" name="xpath_evaluate.cppm" size="498" time="13341508753"/>
+   <file hash="" name="xpath_expr.cpp" size="51780" time="13341510885"/>
+   <file hash="" name="xpath_expr.cppm" size="8299" time="13341509484"/>
+   <file hash="" name="xpath_function.cpp" size="12213" time="13341508627"/>
+   <file hash="" name="xpath_function.cppm" size="974" time="13341508600"/>
+   <file hash="" name="xpath_keywords.cpp" size="1238" time="13341506245"/>
+   <file hash="" name="xpath_keywords.cppm" size="291" time="13341505325"/>
+   <file hash="" name="xpath_lexer.cpp" size="26481" time="13341505682"/>
+   <file hash="" name="xpath_lexer.cppm" size="597" time="13341511152"/>
+   <file hash="" name="xpath_object.cpp" size="839" time="13341507460"/>
+   <file hash="" name="xpath_object.cppm" size="1337" time="13341507442"/>
+   <file hash="" name="xpath_parser.cpp" size="204432" time="13341511375"/>
+   <file hash="" name="xpath_parser.cppm" size="2619" time="13341511857"/>
+   <file hash="" name="xpath_tokens.cpp" size="4749" time="13341505483"/>
+   <file hash="" name="xpath_tokens.cppm" size="1823" time="13341505639"/>
+   <file hash="" name="xpath_token_value_parsers.cpp" size="1497" time="13341511439"/>
+   <file hash="" name="xpath_token_value_parsers.cppm" size="438" time="13341511469"/>
+  </directory>
+  <file hash="" name="wingstall-mod.sln" size="42987" time="13342113109"/>
+ </component>
+ <component name="icon">
+  <directory name="icon" time="13341850378">
+   <file hash="" name="package.ico" size="16958" time="13277071899"/>
+   <file hash="" name="setup.ico" size="4710" time="13273099479"/>
+  </directory>
+ </component>
+ <component name="install">
+  <directory name="inst" time="13341850438">
+   <file hash="" name="inst.bat" size="275" time="13279710943"/>
+   <file hash="" name="wnginst.exe" size="4790272" time="13342114148"/>
+  </directory>
+ </component>
+ <component name="setup">
+  <directory name="setup" time="13342114484">
+   <directory name="deflate" time="13342114488">
+    <file hash="" name="wingstall.package.xml" size="6709" time="13342116033"/>
+   </directory>
+  </directory>
+ </component>
+ <component name="packages">
+  <directory name="packages" time="13341848083">
+   <directory name="example" time="13341848225">
+    <directory name="deflate" time="13342113686">
+     <directory name="compile" time="13342113626">
+      <file hash="" name="compile_debug.bat" size="380" time="13342114243"/>
+      <file hash="" name="compile_release.bat" size="386" time="13342114243"/>
+      <file hash="" name="debug_stderr.txt" size="0" time="13342114244"/>
+      <file hash="" name="debug_stdout.txt" size="12711" time="13342114302"/>
+      <file hash="" name="release_stderr.txt" size="0" time="13342114303"/>
+      <file hash="" name="release_stdout.txt" size="13045" time="13342114362"/>
+     </directory>
+     <file hash="" name="example.package.xml" size="1876" time="13274734096"/>
+    </directory>
+    <directory name="plain" time="13342113410">
+     <directory name="compile" time="13342112074">
+      <file hash="" name="compile_debug.bat" size="374" time="13342113291"/>
+      <file hash="" name="compile_release.bat" size="380" time="13342113291"/>
+      <file hash="" name="debug_stderr.txt" size="0" time="13342113291"/>
+      <file hash="" name="debug_stdout.txt" size="12683" time="13342113350"/>
+      <file hash="" name="release_stderr.txt" size="0" time="13342113351"/>
+      <file hash="" name="release_stdout.txt" size="13017" time="13342113409"/>
+     </directory>
+     <file hash="" name="example.package.xml" size="1774" time="13277142612"/>
+    </directory>
+   </directory>
+  </directory>
+ </component>
+ <component name="resources">
+  <directory name="res" time="13341682636">
+   <file hash="" name="add.bmp" size="822" time="13274559443"/>
+   <file hash="" name="add.png" size="190" time="13222291250"/>
+   <file hash="" name="add_document.bmp" size="822" time="13274559483"/>
+   <file hash="" name="add_document.png" size="261" time="13222291250"/>
+   <file hash="" name="add_file.bmp" size="822" time="13274559519"/>
+   <file hash="" name="add_file.png" size="822" time="13274314000"/>
+   <file hash="" name="add_folder.bmp" size="822" time="13274559571"/>
+   <file hash="" name="add_folder.png" size="249" time="13222291250"/>
+   <file hash="" name="build.bmp" size="822" time="13277019057"/>
+   <file hash="" name="build.png" size="305" time="13222291250"/>
+   <file hash="" name="cancel_build.bmp" size="822" time="13277240462"/>
+   <file hash="" name="cancel_build.png" size="345" time="13222291250"/>
+   <file hash="" name="component.bmp" size="822" time="13274559377"/>
+   <file hash="" name="component.png" size="169" time="13222291250"/>
+   <file hash="" name="components.bmp" size="822" time="13274723205"/>
+   <file hash="" name="components.png" size="250" time="13274723154"/>
+   <file hash="" name="delete_file.bmp" size="822" time="13274559626"/>
+   <file hash="" name="delete_file.png" size="822" time="13274314057"/>
+   <file hash="" name="delete_file_cascade.bmp" size="822" time="13274739886"/>
+   <file hash="" name="delete_file_cascade.png" size="822" time="13274739831"/>
+   <file hash="" name="delete_folder.bmp" size="822" time="13274559667"/>
+   <file hash="" name="delete_folder.png" size="387" time="13222291250"/>
+   <file hash="" name="delete_folder_cascade.bmp" size="822" time="13274740242"/>
+   <file hash="" name="delete_folder_cascade.png" size="395" time="13274740207"/>
+   <file hash="" name="document_collection.bmp" size="822" time="13274720980"/>
+   <file hash="" name="document_collection.png" size="192" time="13222291250"/>
+   <file hash="" name="engine_variable.bmp" size="822" time="13274780299"/>
+   <file hash="" name="engine_variable.png" size="333" time="13222291252"/>
+   <file hash="" name="engine_variables.bmp" size="822" time="13274780671"/>
+   <file hash="" name="engine_variables.png" size="697" time="13222291252"/>
+   <file hash="" name="environment.bmp" size="822" time="13274559706"/>
+   <file hash="" name="environment.png" size="303" time="13222291250"/>
+   <file hash="" name="environment_var.bmp" size="822" time="13274559751"/>
+   <file hash="" name="environment_var.png" size="311" time="13222291250"/>
+   <file hash="" name="file.bmp" size="822" time="13276979744"/>
+   <file hash="" name="file.png" size="296" time="13276979776"/>
+   <file hash="" name="folder_closed.bmp" size="822" time="13274559833"/>
+   <file hash="" name="folder_closed.png" size="428" time="13222291252"/>
+   <file hash="" name="folder_opened.bmp" size="822" time="13274559882"/>
+   <file hash="" name="folder_opened.png" size="345" time="13222291252"/>
+   <file hash="" name="legacy-package.ico" size="1406" time="13274558403"/>
+   <file hash="" name="legacy_package.png" size="233" time="13222291252"/>
+   <file hash="" name="library.bmp" size="822" time="13274559928"/>
+   <file hash="" name="library.png" size="151" time="13222291252"/>
+   <file hash="" name="link.folders.bmp" size="822" time="13276284268"/>
+   <file hash="" name="link.folders.png" size="348" time="13222291252"/>
+   <file hash="" name="linked_foldel_closed.png" size="326" time="13222291252"/>
+   <file hash="" name="linked_folder_closed.bmp" size="822" time="13274560005"/>
+   <file hash="" name="linked_folder_opened.bmp" size="822" time="13274560040"/>
+   <file hash="" name="linked_folder_opened.png" size="376" time="13222291252"/>
+   <file hash="" name="links.bmp" size="822" time="13274559964"/>
+   <file hash="" name="links.png" size="434" time="13222291252"/>
+   <file hash="" name="package-color.bmp" size="822" time="13277071189"/>
+   <file hash="" name="package-color.png" size="409" time="13277071087"/>
+   <file hash="" name="package-red.bmp" size="822" time="13277072036"/>
+   <file hash="" name="package-red.png" size="418" time="13277071946"/>
+   <file hash="" name="package.bmp" size="822" time="13274559279"/>
+   <file hash="" name="package.ico" size="16958" time="13277071899"/>
+   <file hash="" name="package.png" size="331" time="13222291252"/>
+   <file hash="" name="package_properties.bmp" size="822" time="13274723579"/>
+   <file hash="" name="package_properties.png" size="425" time="13222291252"/>
+   <file hash="" name="path_directory.bmp" size="822" time="13274775206"/>
+   <file hash="" name="path_directory.png" size="614" time="13222291250"/>
+   <file hash="" name="remove.bmp" size="822" time="13274560081"/>
+   <file hash="" name="remove.png" size="21756" time="13222291252"/>
+   <file hash="" name="rules.bmp" size="822" time="13274560112"/>
+   <file hash="" name="rules.png" size="286" time="13222291252"/>
+   <file hash="" name="save.bmp" size="486" time="13272392383"/>
+   <file hash="" name="shortcut.bmp" size="822" time="13274560169"/>
+   <file hash="" name="shortcut.png" size="180" time="13222291252"/>
+   <file hash="" name="shortcuts.bmp" size="822" time="13276284857"/>
+   <file hash="" name="shortcuts.png" size="230" time="13276284826"/>
+   <file hash="" name="up_arrow.bmp" size="822" time="13277076107"/>
+   <file hash="" name="xml_file.bmp" size="822" time="13274780513"/>
+   <file hash="" name="xml_file.png" size="335" time="13222291252"/>
+  </directory>
+ </component>
+ <component name="uninstall"/>
+ <environment>
+  <variable name="WINGSTALL_ROOT" oldValue="" value="$TARGET_ROOT_DIR$"/>
+  <pathDirectory value="$TARGET_ROOT_DIR$/bin"/>
+ </environment>
+ <links>
+  <linkDirectory path="$START_MENU_PROGRAMS_FOLDER$/Wingstall"/>
+  <link arguments="" description="Wingstall Package Editor" iconIndex="0" iconPath="$TARGET_ROOT_DIR$/icon/package.ico" linkFilePath="$START_MENU_PROGRAMS_FOLDER$/Wingstall/Wingstall Package Editor.lnk" path="$TARGET_ROOT_DIR$/bin/package_editor.exe" workingDirecory=""/>
+  <link arguments="" description="Wingstall Package Editor" iconIndex="0" iconPath="$TARGET_ROOT_DIR$/icon/package.ico" linkFilePath="$DESKTOP_FOLDER$/Wingstall Package Editor.lnk" path="$TARGET_ROOT_DIR$/bin/package_editor.exe" workingDirecory=""/>
+ </links>
+ <variables>
+  <variable name="TARGET_ROOT_DIR" value="C:/wingstall"/>
+  <variable name="PREINSTALL_DIR" value=""/>
+  <variable name="APP_NAME" value="Wingstall"/>
+  <variable name="APP_VERSION" value="3.0.0"/>
+  <variable name="PRODUCT_ID" value="17e24c2e-5ddf-4b18-b4ee-1d66182ab193"/>
+  <variable name="PUBLISHER" value="Seppo Laakko"/>
+  <variable name="START_MENU_PROGRAMS_FOLDER" value="C:/ProgramData/Microsoft/Windows/Start Menu/Programs"/>
+  <variable name="DESKTOP_FOLDER" value="C:/Users/seppo/OneDrive/Ty&#246;p&#246;yt&#228;"/>
+  <variable name="PROGRAM_FILES_DIR" value="C:/Program Files"/>
+ </variables>
+</packageIndex>

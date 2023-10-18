@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{88c88da1-2b08-4396-954c-2a0619722f36}</ProjectGuid>
+    <RootNamespace>packageeditor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\config\build.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\config\build.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\config\build.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\config\build.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>package_editord</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>package_editor</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>.;..;$(BOOST_INCLUDE_DIR)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableModules>true</EnableModules>
+      <BuildStlModules>true</BuildStlModules>
+      <DisableSpecificWarnings>5050;4267;4244;4146;4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(BOOST_LIB_DIR);$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>.;..;$(BOOST_INCLUDE_DIR)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableModules>true</EnableModules>
+      <BuildStlModules>true</BuildStlModules>
+      <DisableSpecificWarnings>5050;4267;4244;4146;4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(BOOST_LIB_DIR);$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dom\dom.vcxproj">
+      <Project>{e3f5a374-66fd-441f-b1d6-96908c0af50b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ext\zlib-1.2.11\contrib\vstudio\vc14\zlibstat.vcxproj">
+      <Project>{745dec58-ebb3-47a9-a9b8-4c6627c01bf8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\lexer\lexer.vcxproj">
+      <Project>{73afcd9a-9a1b-4e0e-a684-580bdac40ccc}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\parser\parser.vcxproj">
+      <Project>{4c27f999-9c62-4268-8dfb-496cbee44634}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\rex\rex.vcxproj">
+      <Project>{6c4ba617-7496-41ba-b7ce-7d17376b206b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\util\util.vcxproj">
+      <Project>{c059187a-5946-409b-835e-6cbdc4b40493}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\util_inc\util_inc.vcxproj">
+      <Project>{1a359821-a0ac-4b59-8958-ace058417371}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\wingstall_config\wingstall_config.vcxproj">
+      <Project>{6e9ab84a-d526-431e-9dbb-550561ffd3fd}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\wing\wing.vcxproj">
+      <Project>{1303f2de-f74e-4d40-ba58-3fe56ad912c2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\wing_gui\wing_gui.vcxproj">
+      <Project>{97d97a57-6715-4100-bbd3-5587576ba8d0}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\wing_package\wing_package.vcxproj">
+      <Project>{c33bc827-8238-4e4d-b2d7-8514891e74b1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\xml\xml.vcxproj">
+      <Project>{5b6c01fc-a441-47f2-a830-29add514cc9a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\xpath\xpath.vcxproj">
+      <Project>{0d607d43-efe0-473d-a1c8-a5fe48971240}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="about_dialog.cpp" />
+    <ClCompile Include="about_dialog.cppm" />
+    <ClCompile Include="action.cpp" />
+    <ClCompile Include="action.cppm" />
+    <ClCompile Include="add_directories_and_files_dialog.cpp" />
+    <ClCompile Include="add_directories_and_files_dialog.cppm" />
+    <ClCompile Include="build.cpp" />
+    <ClCompile Include="build.cppm" />
+    <ClCompile Include="component_dialog.cpp" />
+    <ClCompile Include="component.cpp" />
+    <ClCompile Include="component.cppm" />
+    <ClCompile Include="component_dialog.cppm" />
+    <ClCompile Include="configuration.cpp" />
+    <ClCompile Include="configuration.cppm" />
+    <ClCompile Include="content.cpp" />
+    <ClCompile Include="content.cppm" />
+    <ClCompile Include="directory.cpp" />
+    <ClCompile Include="directory.cppm" />
+    <ClCompile Include="edit_configuration_dialog.cpp" />
+    <ClCompile Include="edit_configuration_dialog.cppm" />
+    <ClCompile Include="engine_variable.cpp" />
+    <ClCompile Include="engine_variable.cppm" />
+    <ClCompile Include="environment.cpp" />
+    <ClCompile Include="environment.cppm" />
+    <ClCompile Include="environment_variable_dialog.cpp" />
+    <ClCompile Include="environment_variable_dialog.cppm" />
+    <ClCompile Include="error.cpp" />
+    <ClCompile Include="error.cppm" />
+    <ClCompile Include="file.cpp" />
+    <ClCompile Include="file.cppm" />
+    <ClCompile Include="links.cpp" />
+    <ClCompile Include="links.cppm" />
+    <ClCompile Include="link_directory_dialog.cpp" />
+    <ClCompile Include="link_directory_dialog.cppm" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_window.cpp" />
+    <ClCompile Include="main_window.cppm" />
+    <ClCompile Include="new_package_dialog.cpp" />
+    <ClCompile Include="new_package_dialog.cppm" />
+    <ClCompile Include="node.cpp" />
+    <ClCompile Include="node.cppm" />
+    <ClCompile Include="package.cpp" />
+    <ClCompile Include="package.cppm" />
+    <ClCompile Include="package_content_view.cpp" />
+    <ClCompile Include="package_content_view.cppm" />
+    <ClCompile Include="package_explorer.cpp" />
+    <ClCompile Include="package_explorer.cppm" />
+    <ClCompile Include="path_bar.cpp" />
+    <ClCompile Include="path_bar.cppm" />
+    <ClCompile Include="path_directory_dialog.cpp" />
+    <ClCompile Include="path_directory_dialog.cppm" />
+    <ClCompile Include="preinstall_component.cpp" />
+    <ClCompile Include="preinstall_component.cppm" />
+    <ClCompile Include="properties_view.cpp" />
+    <ClCompile Include="properties_view.cppm" />
+    <ClCompile Include="rule.cpp" />
+    <ClCompile Include="rule.cppm" />
+    <ClCompile Include="rule_dialog.cpp" />
+    <ClCompile Include="rule_dialog.cppm" />
+    <ClCompile Include="shortcut_dialog.cpp" />
+    <ClCompile Include="shortcut_dialog.cppm" />
+    <ClCompile Include="tool_bar.cpp" />
+    <ClCompile Include="tool_bar.cppm" />
+    <ClCompile Include="uninstall_component.cpp" />
+    <ClCompile Include="uninstall_component.cppm" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

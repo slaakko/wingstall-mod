@@ -1,0 +1,39 @@
+<package appName="Example" compression="none" iconFilePath="$TARGET_ROOT_DIR$/bin/example.ico" id="f684650f-451c-4edd-b8e5-3cf2249d2262" includeUninstaller="true" name="example" publisher="Joe Coder" sourceRootDir="../../../example" targetRootDir="C:/example" version="1.0.0">
+ <component name="binaries">
+  <directory name="bin"/>
+ </component>
+ <component name="libraries">
+  <directory name="lib">
+   <exclude dir="*"/>
+   <exclude file="*"/>
+   <include file="*.lib"/>
+  </directory>
+ </component>
+ <component name="documentation">
+  <directory name="doc">
+   <exclude dir="private"/>
+   <exclude file="file.txt"/>
+  </directory>
+ </component>
+ <component name="sources">
+  <directory name="another">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+  </directory>
+  <directory name="example">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+  </directory>
+ </component>
+ <environment>
+  <variable name="EXAMPLE_ROOT" value="$TARGET_ROOT_DIR$"/>
+  <pathDirectory value="$TARGET_ROOT_DIR$/bin"/>
+ </environment>
+ <links>
+  <linkDirectory path="$START_MENU_PROGRAMS_FOLDER$/Example"/>
+  <link description="Hello World Example" iconIndex="0" iconPath="$TARGET_ROOT_DIR$/bin/example.exe" linkFilePath="$START_MENU_PROGRAMS_FOLDER$/Example/Example.lnk" path="$TARGET_ROOT_DIR$/bin/example.exe" workingDirectory="$TARGET_ROOT_DIR$/bin"/>
+  <link description="Hello World Example" iconIndex="0" iconPath="$TARGET_ROOT_DIR$/bin/example.exe" linkFilePath="$DESKTOP_FOLDER$/Example.lnk" path="$TARGET_ROOT_DIR$/bin/example.exe" workingDirectory="$TARGET_ROOT_DIR$/bin"/>
+ </links>
+</package>

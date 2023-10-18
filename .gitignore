@@ -12,6 +12,8 @@ bind
 *.vspx
 *.org
 *.obj
+!gvmat64.obj
+!inffasx64.obj
 *.o
 !Main.o
 *.exe
@@ -29,3 +31,6 @@ repository
 Debug
 Release
 install
+ucd.all.flat.xml
+wingstall.package.bin
+wingstall_ucd.bin

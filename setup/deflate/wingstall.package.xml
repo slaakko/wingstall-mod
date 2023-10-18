@@ -1,0 +1,184 @@
+<package appName="Wingstall" compression="deflate" iconFilePath="$TARGET_ROOT_DIR$/icon/package.ico" id="17e24c2e-5ddf-4b18-b4ee-1d66182ab193" includeUninstaller="true" name="wingstall" publisher="Seppo Laakko" sourceRootDir="../.." targetRootDir="C:/wingstall" version="3.0.0">
+ <component name="binaries">
+  <directory name="bin"/>
+ </component>
+ <component name="libraries">
+  <directory name="lib"/>
+ </component>
+ <component name="unicode">
+  <directory name="unicode">
+   <exclude dir="x64"/>
+  </directory>
+ </component>
+ <component name="configuration">
+  <directory name="config">
+   <exclude file="package_editor.config.xml"/>
+  </directory>
+ </component>
+ <component name="documentation">
+  <directory name="doc"/>
+ </component>
+ <component name="ext">
+  <directory name="ext">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+  </directory>
+ </component>
+ <component name="sources">
+  <directory name="dom">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="example">
+   <exclude cascade="true" dir=".vs"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+  </directory>
+  <directory name="file_compare">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="lexer">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="make_package_id">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="package_editor">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="parser">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="rex">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="uninstall">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="util">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="util_inc">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="wing">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="wing_gui">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="wing_package">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="wingstall">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="wingstall_config">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="wnginst">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="xml">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <directory name="xpath">
+   <exclude cascade="true" dir="Debug"/>
+   <exclude cascade="true" dir="Release"/>
+   <exclude cascade="true" dir="x64"/>
+   <exclude cascade="true" dir=".vs"/>
+  </directory>
+  <file name="wingstall-mod.sln"/>
+ </component>
+ <component name="icon">
+  <directory name="icon"/>
+ </component>
+ <component name="install">
+  <directory name="inst"/>
+ </component>
+ <component name="setup">
+  <directory name="setup">
+   <exclude cascade="true" dir="bin"/>
+   <exclude cascade="true" dir="program"/>
+   <exclude cascade="true" file="*.bin"/>
+   <exclude cascade="true" file="*.index.xml"/>
+   <exclude cascade="true" file="*.info.xml"/>
+  </directory>
+ </component>
+ <component name="packages">
+  <directory name="packages">
+   <exclude dir="*"/>
+   <include dir="example">
+    <exclude cascade="true" dir="bin"/>
+    <exclude cascade="true" dir="program"/>
+    <exclude cascade="true" file="*.bin"/>
+    <exclude cascade="true" file="*.index.xml"/>
+    <exclude cascade="true" file="*.info.xml"/>
+   </include>
+  </directory>
+ </component>
+ <component name="resources">
+  <directory name="res"/>
+ </component>
+ <environment>
+  <variable name="WINGSTALL_ROOT" value="$TARGET_ROOT_DIR$"/>
+  <pathDirectory value="$TARGET_ROOT_DIR$/bin"/>
+ </environment>
+ <links>
+  <linkDirectory path="$START_MENU_PROGRAMS_FOLDER$/Wingstall"/>
+  <link description="Wingstall Package Editor" iconIndex="0" iconPath="$TARGET_ROOT_DIR$/icon/package.ico" linkFilePath="$START_MENU_PROGRAMS_FOLDER$/Wingstall/Wingstall Package Editor.lnk" path="$TARGET_ROOT_DIR$/bin/package_editor.exe"/>
+  <link description="Wingstall Package Editor" iconIndex="0" iconPath="$TARGET_ROOT_DIR$/icon/package.ico" linkFilePath="$DESKTOP_FOLDER$/Wingstall Package Editor.lnk" path="$TARGET_ROOT_DIR$/bin/package_editor.exe"/>
+ </links>
+</package>
