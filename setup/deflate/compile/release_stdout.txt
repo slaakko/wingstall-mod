@@ -1,8 +1,8 @@
 MSBuild version 17.7.2+d6990bcfa for .NET Framework
 
   Scanning sources for module dependencies...
-  std.ixx
   std.compat.ixx
+  std.ixx
   Compiling...
   std.ixx
   std.compat.ixx
@@ -33,67 +33,67 @@ MSBuild version 17.7.2+d6990bcfa for .NET Framework
   Generating Code...
   zlibstat.vcxproj -> C:\work\wingstall-mod\setup\deflate\program\x64\Release\zlibstat.lib
   Scanning sources for module dependencies...
-  binary_stream_reader.cppm
-  compression.cppm
-  memory_writer.cppm
-  log.cppm
-  code_formatter.cppm
-  prime.cppm
   ansi.cppm
-  deflate_stream.cppm
-  buffered_stream.cppm
-  path.cppm
+  code_formatter.cppm
+  binary_stream_reader.cppm
   binary_stream_writer.cppm
-  file_util.cppm
-  sha1.cppm
-  file_stream.cppm
-  rand.cppm
-  log_file_writer.cppm
-  multiprecision.cppm
-  json.cppm
-  process.cppm
-  fiber.cppm
-  init_done.cppm
+  buffered_stream.cppm
   handle.cppm
+  memory_writer.cppm
+  init_done.cppm
   memory_stream.cppm
   memory_reader.cppm
+  log_file_writer.cppm
+  compression.cppm
+  file_stream.cppm
+  json.cppm
+  fiber.cppm
+  sha1.cppm
+  rand.cppm
+  deflate_stream.cppm
+  prime.cppm
+  multiprecision.cppm
+  file_util.cppm
+  log.cppm
+  path.cppm
+  process.cppm
   socket.cppm
-  stream.cppm
+  uuid.cppm
   text_util.cppm
+  stream.cppm
   system.cppm
   time.cppm
   unicode.cppm
   util.cppm
-  uuid.cppm
   Compiling...
+  ansi.cppm
   code_formatter.cppm
   compression.cppm
-  file_util.cppm
-  ansi.cppm
-  stream.cppm
-  text_util.cppm
   fiber.cppm
-  socket.cppm
-  init_done.cppm
-  rand.cppm
-  log_file_writer.cppm
-  path.cppm
-  log.cppm
+  text_util.cppm
+  uuid.cppm
   handle.cppm
-  sha1.cppm
-  process.cppm
+  init_done.cppm
+  log_file_writer.cppm
   multiprecision.cppm
+  log.cppm
+  stream.cppm
+  file_util.cppm
   prime.cppm
+  process.cppm
+  socket.cppm
+  path.cppm
+  sha1.cppm
+  rand.cppm
   system.cppm
   time.cppm
-  uuid.cppm
-  file_stream.cppm
-  memory_stream.cppm
-  deflate_stream.cppm
-  buffered_stream.cppm
   json.cppm
-  binary_stream_writer.cppm
+  memory_stream.cppm
   binary_stream_reader.cppm
+  binary_stream_writer.cppm
+  buffered_stream.cppm
+  deflate_stream.cppm
+  file_stream.cppm
   memory_reader.cppm
   memory_writer.cppm
   unicode.cppm
@@ -134,22 +134,22 @@ MSBuild version 17.7.2+d6990bcfa for .NET Framework
   lexeme.cppm
   keyword.cppm
   xml_parsing_log.cppm
-  source_pos.cppm
-  trivial_lexer.cppm
+  std.ixx
+  parsing_log.cppm
+  std.compat.ixx
   lib.cppm
   lexer.cppm
   parsing_exception.cppm
-  parsing_log.cppm
-  span.cppm
-  std.ixx
   token.cppm
-  std.compat.ixx
-  Compiling...
-  parsing_log.cppm
+  source_pos.cppm
+  trivial_lexer.cppm
   span.cppm
+  Compiling...
   lexeme.cppm
   std.ixx
+  parsing_log.cppm
   source_pos.cppm
+  span.cppm
   parsing_exception.cppm
   xml_parsing_log.cppm
   token.cppm
@@ -169,26 +169,26 @@ MSBuild version 17.7.2+d6990bcfa for .NET Framework
   xml_parsing_log.cpp
   lexer.vcxproj -> C:\work\wingstall-mod\setup\deflate\program\x64\Release\lexer.lib
   Scanning sources for module dependencies...
-  parser.cppm
-  match.cppm
-  range.cppm
   std.ixx
+  parser.cppm
   std.compat.ixx
+  range.cppm
+  match.cppm
   value.cppm
   Compiling...
   match.cppm
+  value.cppm
   range.cppm
   std.ixx
-  value.cppm
   parser.cppm
   std.compat.ixx
   parser.vcxproj -> C:\work\wingstall-mod\setup\deflate\program\x64\Release\parser.lib
   Scanning sources for module dependencies...
   rules.cppm
-  xml_parser_interface.cppm
   xml_processor.cppm
-  xml_parser.cppm
   xml.cppm
+  xml_parser.cppm
+  xml_parser_interface.cppm
   xml_content_handler.cppm
   Compiling...
   rules.cppm
@@ -205,39 +205,39 @@ MSBuild version 17.7.2+d6990bcfa for .NET Framework
   xml.vcxproj -> C:\work\wingstall-mod\setup\deflate\program\x64\Release\xml.lib
   Scanning sources for module dependencies...
   attribute_node.cppm
-  comment.cppm
-  node.cppm
-  element.cppm
-  visitor.cppm
-  node_operation.cppm
-  axis.cppm
   entity_reference.cppm
-  cdata_section.cppm
-  character_data.cppm
-  dom.cppm
+  node_operation.cppm
   document_fragment.cppm
+  node.cppm
+  visitor.cppm
+  document.cppm
+  dom.cppm
+  axis.cppm
   index.cppm
   error.cppm
-  document.cppm
+  character_data.cppm
+  cdata_section.cppm
+  element.cppm
+  comment.cppm
+  processing_instruction.cppm
   parser.cppm
   parent_node.cppm
   text.cppm
-  processing_instruction.cppm
   Compiling...
-  error.cppm
-  visitor.cppm
-  index.cppm
   axis.cppm
+  error.cppm
+  index.cppm
+  visitor.cppm
   node.cppm
-  attribute_node.cppm
+  processing_instruction.cppm
   node_operation.cppm
   parent_node.cppm
-  processing_instruction.cppm
   character_data.cppm
-  comment.cppm
-  element.cppm
+  attribute_node.cppm
   document_fragment.cppm
+  comment.cppm
   entity_reference.cppm
+  element.cppm
   text.cppm
   document.cppm
   cdata_section.cppm
@@ -263,28 +263,28 @@ MSBuild version 17.7.2+d6990bcfa for .NET Framework
   dom.vcxproj -> C:\work\wingstall-mod\setup\deflate\program\x64\Release\dom.lib
   Scanning sources for module dependencies...
   xpath.cppm
-  xpath_context.cppm
-  xpath_lexer.cppm
-  xpath_function.cppm
-  xpath_token_value_parsers.cppm
   xpath_parser.cppm
-  xpath_evaluate.cppm
-  xpath_keywords.cppm
-  xpath_expr.cppm
-  xpath_class_map.cppm
-  xpath_object.cppm
-  xpath_tokens.cppm
-  Compiling...
   xpath_lexer.cppm
-  xpath_context.cppm
-  xpath_keywords.cppm
-  xpath_object.cppm
   xpath_token_value_parsers.cppm
-  xpath_class_map.cppm
-  xpath_tokens.cppm
   xpath_expr.cppm
+  xpath_keywords.cppm
   xpath_evaluate.cppm
   xpath_function.cppm
+  xpath_context.cppm
+  xpath_class_map.cppm
+  xpath_tokens.cppm
+  xpath_object.cppm
+  Compiling...
+  xpath_keywords.cppm
+  xpath_class_map.cppm
+  xpath_context.cppm
+  xpath_lexer.cppm
+  xpath_token_value_parsers.cppm
+  xpath_object.cppm
+  xpath_tokens.cppm
+  xpath_function.cppm
+  xpath_expr.cppm
+  xpath_evaluate.cppm
   xpath_parser.cppm
   xpath.cppm
   xpath_class_map.cpp
@@ -300,126 +300,126 @@ MSBuild version 17.7.2+d6990bcfa for .NET Framework
   xpath_token_value_parsers.cpp
   xpath.vcxproj -> C:\work\wingstall-mod\setup\deflate\program\x64\Release\xpath.lib
   Scanning sources for module dependencies...
-  application.cppm
   bordered_control.cppm
-  buffer.cppm
-  ansi.cppm
-  button.cppm
-  check_box.cppm
-  base.cppm
+  application.cppm
   binary_resource_ptr.cppm
   edit_command.cppm
-  component.cppm
   dialog.cppm
-  graphics.cppm
+  base.cppm
+  ansi.cppm
+  buffer.cppm
+  check_box.cppm
+  button.cppm
+  console.cppm
+  color.cppm
+  container.cppm
   file_util.cppm
+  component.cppm
+  clipboard.cppm
+  graphics.cppm
+  event.cppm
+  control.cppm
   edit_command_list.cppm
   environment.cppm
-  cursor.cppm
   combo_box.cppm
-  control.cppm
+  cursor.cppm
   container_control.cppm
-  color.cppm
-  clipboard.cppm
-  event.cppm
-  console.cppm
-  container.cppm
   group_box.cppm
+  keys.cppm
   icon_list_view.cppm
   icon.cppm
   init_done.cppm
   image_list.cppm
-  installation.cppm
-  keys.cppm
-  list_box.cppm
-  label.cppm
   log_view.cppm
+  label.cppm
+  installation.cppm
+  list_box.cppm
   list_view.cppm
-  message_box.cppm
   manual_reset_event.cppm
-  metrics.cppm
+  message_box.cppm
   menu.cppm
-  padded_control.cppm
+  metrics.cppm
   panel.cppm
-  path_view.cppm
-  progress_bar.cppm
+  padded_control.cppm
   radio_button.cppm
+  path_view.cppm
+  registry.cppm
+  progress_bar.cppm
+  scrollable_control.cppm
   resource_manager.cppm
   shell.cppm
-  registry.cppm
+  source_code_view.cppm
   split_container.cppm
   tab_control.cppm
-  scrollable_control.cppm
   text_box.cppm
-  source_code_view.cppm
-  status_bar.cppm
-  tool_bar.cppm
   tool_tip.cppm
+  status_bar.cppm
   text_view.cppm
-  window.cppm
+  tool_bar.cppm
   tree_view.cppm
+  window.cppm
   window_manager.cppm
   wing.cppm
   Compiling...
-  file_util.cppm
-  init_done.cppm
-  event.cppm
-  binary_resource_ptr.cppm
-  dialog.cppm
   component.cppm
+  init_done.cppm
+  edit_command_list.cppm
+  event.cppm
+  resource_manager.cppm
+  window_manager.cppm
+  binary_resource_ptr.cppm
   manual_reset_event.cppm
   container.cppm
-  edit_command_list.cppm
-  resource_manager.cppm
-  keys.cppm
-  window_manager.cppm
   message_box.cppm
+  file_util.cppm
+  keys.cppm
+  dialog.cppm
   shell.cppm
   base.cppm
-  icon.cppm
   cursor.cppm
+  icon.cppm
+  registry.cppm
+  graphics.cppm
   clipboard.cppm
   application.cppm
-  graphics.cppm
-  registry.cppm
-  environment.cppm
   installation.cppm
+  environment.cppm
   color.cppm
-  control.cppm
-  image_list.cppm
   buffer.cppm
   metrics.cppm
+  control.cppm
+  image_list.cppm
   ansi.cppm
+  tool_tip.cppm
+  scrollable_control.cppm
+  menu.cppm
+  label.cppm
+  bordered_control.cppm
+  text_box.cppm
+  progress_bar.cppm
+  text_view.cppm
+  list_box.cppm
+  path_view.cppm
+  padded_control.cppm
+  status_bar.cppm
   container_control.cppm
   icon_list_view.cppm
   list_view.cppm
-  text_box.cppm
-  path_view.cppm
-  label.cppm
-  tool_tip.cppm
-  menu.cppm
-  bordered_control.cppm
-  progress_bar.cppm
-  list_box.cppm
-  scrollable_control.cppm
-  padded_control.cppm
-  status_bar.cppm
-  text_view.cppm
   tool_bar.cppm
-  tree_view.cppm
-  panel.cppm
-  split_container.cppm
   combo_box.cppm
+  tree_view.cppm
+  split_container.cppm
   window.cppm
+  panel.cppm
   tab_control.cppm
-  console.cppm
-  log_view.cppm
-  button.cppm
-  source_code_view.cppm
   edit_command.cppm
-  check_box.cppm
-  group_box.cppm
+  source_code_view.cppm
+  log_view.cppm
+  console.cppm
+  button.cppm
   radio_button.cppm
+  group_box.cppm
+  check_box.cppm
   wing.cppm
   ansi.cpp
   application.cpp
@@ -483,23 +483,23 @@ MSBuild version 17.7.2+d6990bcfa for .NET Framework
   wing.vcxproj -> C:\work\wingstall-mod\setup\deflate\program\x64\Release\wing.lib
   Scanning sources for module dependencies...
   context.cppm
-  rex_tokens.cppm
-  rex_parser.cppm
-  algorithm.cppm
-  rex_class_map.cppm
-  rex.cppm
-  match.cppm
-  nfa.cppm
-  rex_lexer.cppm
-  symbol.cppm
   token_value_parsers.cppm
+  rex_parser.cppm
+  rex_tokens.cppm
+  nfa.cppm
+  rex.cppm
+  rex_class_map.cppm
+  symbol.cppm
+  algorithm.cppm
+  match.cppm
+  rex_lexer.cppm
   Compiling...
   match.cppm
-  token_value_parsers.cppm
-  algorithm.cppm
   rex_lexer.cppm
-  symbol.cppm
+  algorithm.cppm
   rex_class_map.cppm
+  token_value_parsers.cppm
+  symbol.cppm
   rex_tokens.cppm
   nfa.cppm
   context.cppm
@@ -518,53 +518,53 @@ MSBuild version 17.7.2+d6990bcfa for .NET Framework
   rex.vcxproj -> C:\work\wingstall-mod\setup\deflate\program\x64\Release\rex.lib
   Scanning sources for module dependencies...
   config.cppm
-  wingstall_config.cppm
   std.ixx
-  build_props.cppm
   std.compat.ixx
-  Compiling...
-  config.cppm
-  std.ixx
+  wingstall_config.cppm
   build_props.cppm
+  Compiling...
+  build_props.cppm
+  std.ixx
+  config.cppm
   wingstall_config.cppm
   std.compat.ixx
   build_props.cpp
   config.cpp
   wingstall_config.vcxproj -> C:\work\wingstall-mod\setup\deflate\program\x64\Release\wingstall_config.lib
   Scanning sources for module dependencies...
-  variable.cppm
-  component.cppm
-  environment.cppm
-  make_setup.cppm
-  links.cppm
-  preinstall_component.cppm
-  uninstall_exe_file.cppm
-  file.cppm
   package.cppm
+  component.cppm
+  links.cppm
+  file.cppm
+  uninstall_bin_file.cppm
+  environment.cppm
+  installation_component.cppm
   directory.cppm
   info.cppm
-  installation_component.cppm
+  uninstall_component.cppm
+  preinstall_component.cppm
   node.cppm
+  make_setup.cppm
   path_matcher.cppm
   wing_package.cppm
-  uninstall_component.cppm
-  uninstall_bin_file.cppm
+  uninstall_exe_file.cppm
+  variable.cppm
   Compiling...
   make_setup.cppm
-  info.cppm
   path_matcher.cppm
+  info.cppm
   node.cppm
+  environment.cppm
+  directory.cppm
   file.cppm
   links.cppm
-  directory.cppm
-  environment.cppm
   variable.cppm
-  uninstall_bin_file.cppm
   uninstall_exe_file.cppm
+  uninstall_bin_file.cppm
   component.cppm
   package.cppm
-  preinstall_component.cppm
   uninstall_component.cppm
+  preinstall_component.cppm
   installation_component.cppm
   wing_package.cppm
   component.cpp
@@ -586,18 +586,18 @@ MSBuild version 17.7.2+d6990bcfa for .NET Framework
   wing_package.vcxproj -> C:\work\wingstall-mod\setup\deflate\program\x64\Release\wing_package.lib
   Scanning sources for module dependencies...
   action_dialog.cppm
+  message_dialog.cppm
   std.compat.ixx
+  std.ixx
   status_message.cppm
+  uninstall_window.cppm
   install_window.cppm
   wing_gui.cppm
-  uninstall_window.cppm
-  std.ixx
-  message_dialog.cppm
   Compiling...
   message_dialog.cppm
+  status_message.cppm
   action_dialog.cppm
   std.ixx
-  status_message.cppm
   install_window.cppm
   uninstall_window.cppm
   wing_gui.cppm

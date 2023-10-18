@@ -1,54 +1,54 @@
 <packageIndex appName="Wingstall" compression="deflate" iconFilePath="$TARGET_ROOT_DIR$/icon/package.ico" id="17e24c2e-5ddf-4b18-b4ee-1d66182ab193" includeUninstaller="1" name="wingstall" publisher="Seppo Laakko" sourceRootDir="C:/work/wingstall-mod" targetRootDir="C:/wingstall" version="3.0.0">
  <component name="binaries">
   <directory name="bin" time="13341850612">
-   <file hash="" name="file_compare.exe" size="401408" time="13342114141"/>
-   <file hash="" name="file_compared.exe" size="2700288" time="13342114090"/>
-   <file hash="" name="make_package_id.exe" size="177152" time="13342114140"/>
-   <file hash="" name="make_package_idd.exe" size="2577920" time="13342114090"/>
-   <file hash="" name="make_wingstall_ucd.exe" size="567808" time="13342114148"/>
-   <file hash="" name="make_wingstall_ucdd.exe" size="3975168" time="13342114097"/>
-   <file hash="" name="package_editor.exe" size="10584064" time="13342114174"/>
-   <file hash="" name="package_editord.exe" size="18706432" time="13342114117"/>
-   <file hash="" name="uninstall.exe" size="5324288" time="13342114169"/>
-   <file hash="" name="uninstalld.exe" size="16727552" time="13342114113"/>
-   <file hash="" name="wingstall.exe" size="9972224" time="13342114163"/>
-   <file hash="" name="wingstalld.exe" size="17064960" time="13342114111"/>
-   <file hash="" name="wnginst.exe" size="4790272" time="13342114148"/>
-   <file hash="" name="wnginstd.exe" size="7790592" time="13342114093"/>
+   <file hash="" name="file_compare.exe" size="401408" time="13342120914"/>
+   <file hash="" name="file_compared.exe" size="2700288" time="13342120859"/>
+   <file hash="" name="make_package_id.exe" size="177152" time="13342120914"/>
+   <file hash="" name="make_package_idd.exe" size="2577920" time="13342120859"/>
+   <file hash="" name="make_wingstall_ucd.exe" size="567808" time="13342120921"/>
+   <file hash="" name="make_wingstall_ucdd.exe" size="3975168" time="13342120866"/>
+   <file hash="" name="package_editor.exe" size="10584064" time="13342120946"/>
+   <file hash="" name="package_editord.exe" size="18706432" time="13342120891"/>
+   <file hash="" name="uninstall.exe" size="5324288" time="13342120942"/>
+   <file hash="" name="uninstalld.exe" size="16727552" time="13342120887"/>
+   <file hash="" name="wingstall.exe" size="9972224" time="13342120936"/>
+   <file hash="" name="wingstalld.exe" size="17064960" time="13342120880"/>
+   <file hash="" name="wnginst.exe" size="4790272" time="13342120921"/>
+   <file hash="" name="wnginstd.exe" size="7790592" time="13342120866"/>
   </directory>
  </component>
  <component name="libraries">
   <directory name="lib" time="13341850616">
-   <file hash="" name="dom.lib" size="3056606" time="13342114147"/>
-   <file hash="" name="domd.lib" size="5582166" time="13342114093"/>
-   <file hash="" name="lexer.lib" size="8610180" time="13342114144"/>
-   <file hash="" name="lexerd.lib" size="9129396" time="13342114090"/>
-   <file hash="" name="parser.lib" size="6910214" time="13342114126"/>
-   <file hash="" name="parserd.lib" size="5862368" time="13342114070"/>
-   <file hash="" name="rex.lib" size="6076684" time="13342114146"/>
-   <file hash="" name="rexd.lib" size="7748710" time="13342114092"/>
-   <file hash="" name="util.lib" size="24558300" time="13342114139"/>
-   <file hash="" name="utild.lib" size="33435094" time="13342114085"/>
-   <file hash="" name="util_inc.lib" size="23425664" time="13342114132"/>
-   <file hash="" name="util_incd.lib" size="21984112" time="13342114077"/>
-   <file hash="" name="wing.lib" size="31980302" time="13342114158"/>
-   <file hash="" name="wingd.lib" size="38376232" time="13342114104"/>
-   <file hash="" name="wingstall_config.lib" size="7885444" time="13342114153"/>
-   <file hash="" name="wingstall_configd.lib" size="7403080" time="13342114099"/>
-   <file hash="" name="wing_gui.lib" size="10223574" time="13342114165"/>
-   <file hash="" name="wing_guid.lib" size="9994068" time="13342114112"/>
-   <file hash="" name="wing_package.lib" size="10396912" time="13342114160"/>
-   <file hash="" name="wing_packaged.lib" size="18107612" time="13342114106"/>
-   <file hash="" name="xml.lib" size="2097790" time="13342114146"/>
-   <file hash="" name="xmld.lib" size="4439256" time="13342114092"/>
-   <file hash="" name="xpath.lib" size="7548928" time="13342114150"/>
-   <file hash="" name="xpathd.lib" size="10461408" time="13342114095"/>
-   <file hash="" name="zlibstat.lib" size="1095132" time="13342114126"/>
-   <file hash="" name="zlibstatd.lib" size="1371920" time="13342114069"/>
+   <file hash="" name="dom.lib" size="3056602" time="13342120921"/>
+   <file hash="" name="domd.lib" size="5582166" time="13342120866"/>
+   <file hash="" name="lexer.lib" size="8604704" time="13342120917"/>
+   <file hash="" name="lexerd.lib" size="9129396" time="13342120863"/>
+   <file hash="" name="parser.lib" size="6910214" time="13342120899"/>
+   <file hash="" name="parserd.lib" size="5862368" time="13342120843"/>
+   <file hash="" name="rex.lib" size="6076684" time="13342120919"/>
+   <file hash="" name="rexd.lib" size="7748710" time="13342120865"/>
+   <file hash="" name="util.lib" size="24557686" time="13342120913"/>
+   <file hash="" name="utild.lib" size="33435094" time="13342120858"/>
+   <file hash="" name="util_inc.lib" size="23425664" time="13342120905"/>
+   <file hash="" name="util_incd.lib" size="21984112" time="13342120850"/>
+   <file hash="" name="wing.lib" size="31982090" time="13342120930"/>
+   <file hash="" name="wingd.lib" size="38376232" time="13342120877"/>
+   <file hash="" name="wingstall_config.lib" size="7885444" time="13342120926"/>
+   <file hash="" name="wingstall_configd.lib" size="7403080" time="13342120872"/>
+   <file hash="" name="wing_gui.lib" size="10223326" time="13342120938"/>
+   <file hash="" name="wing_guid.lib" size="9994068" time="13342120885"/>
+   <file hash="" name="wing_package.lib" size="10396896" time="13342120932"/>
+   <file hash="" name="wing_packaged.lib" size="18107612" time="13342120879"/>
+   <file hash="" name="xml.lib" size="2097790" time="13342120919"/>
+   <file hash="" name="xmld.lib" size="4439256" time="13342120864"/>
+   <file hash="" name="xpath.lib" size="7548844" time="13342120923"/>
+   <file hash="" name="xpathd.lib" size="10461408" time="13342120868"/>
+   <file hash="" name="zlibstat.lib" size="1095132" time="13342120899"/>
+   <file hash="" name="zlibstatd.lib" size="1371920" time="13342120843"/>
   </directory>
  </component>
  <component name="unicode">
-  <directory name="unicode" time="13342113091">
+  <directory name="unicode" time="13342121052">
    <file hash="" name="make_ucd_bin.cpp" size="13576" time="13341847846"/>
    <file hash="" name="readme.md" size="755" time="13274294933"/>
    <file hash="" name="ucd.all.flat.xml" size="182226238" time="13200321248"/>
@@ -63,7 +63,7 @@
  <component name="configuration">
   <directory name="config" time="13341851568">
    <file hash="" name="build.props" size="648" time="13341406279"/>
-   <file hash="" name="configuration.xml" size="221" time="13342114243"/>
+   <file hash="" name="configuration.xml" size="221" time="13342116076"/>
   </directory>
  </component>
  <component name="documentation">
@@ -108,17 +108,17 @@
      <file hash="" name="release.notes.html" size="149" time="13301124256"/>
     </directory>
     <directory name="3.0.0" time="13342114901">
-     <file hash="" name="release.notes.html" size="147" time="13342114858"/>
+     <file hash="" name="release.notes.html" size="287" time="13342119729"/>
     </directory>
    </directory>
    <directory name="style" time="13342114901">
     <file hash="" name="style.css" size="976" time="13274125568"/>
    </directory>
    <file hash="" name="footnotes.html" size="807" time="13274210901"/>
-   <file hash="" name="index.html" size="68651" time="13285537080"/>
+   <file hash="" name="index.html" size="68596" time="13342119883"/>
    <file hash="" name="LICENSE.txt" size="1076" time="13342114718"/>
    <file hash="" name="package_editor.html" size="7323" time="13285537477"/>
-   <file hash="" name="ucd.html" size="803" time="13274294963"/>
+   <file hash="" name="ucd.html" size="796" time="13342120062"/>
   </directory>
  </component>
  <component name="ext">
@@ -1043,12 +1043,20 @@
  <component name="install">
   <directory name="inst" time="13341850438">
    <file hash="" name="inst.bat" size="275" time="13279710943"/>
-   <file hash="" name="wnginst.exe" size="4790272" time="13342114148"/>
+   <file hash="" name="wnginst.exe" size="4790272" time="13342120921"/>
   </directory>
  </component>
  <component name="setup">
   <directory name="setup" time="13342114484">
-   <directory name="deflate" time="13342114488">
+   <directory name="deflate" time="13342118425">
+    <directory name="compile" time="13342116138">
+     <file hash="" name="compile_debug.bat" size="347" time="13342116076"/>
+     <file hash="" name="compile_release.bat" size="353" time="13342116076"/>
+     <file hash="" name="debug_stderr.txt" size="0" time="13342116077"/>
+     <file hash="" name="debug_stdout.txt" size="12557" time="13342116137"/>
+     <file hash="" name="release_stderr.txt" size="0" time="13342116138"/>
+     <file hash="" name="release_stdout.txt" size="12891" time="13342116198"/>
+    </directory>
     <file hash="" name="wingstall.package.xml" size="6709" time="13342116033"/>
    </directory>
   </directory>
